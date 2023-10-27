@@ -3,11 +3,8 @@ import Styles from "./style.module.scss";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import BrandLogo from "../../../assets/vector/brand-logo.svg";
 
-import Facebooklogo from "../../../assets/social_icon/facebook.svg";
-import LinkedinLogo from "../../../assets/social_icon/linkedin.svg";
-import MailLogo from "../../../assets/social_icon/mail.svg";
-import XLogo from "../../../assets/social_icon/x.svg";
-
+import { FaXTwitter, FaLinkedin, FaSquareFacebook } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
 export default function Navbar(props) {
@@ -43,10 +40,10 @@ export default function Navbar(props) {
           </div>
           <nav>
             <div className={Styles.SocialIcons}>
-              <img src={LinkedinLogo} />
-              <img src={XLogo} />
-              <img src={Facebooklogo} />
-              <img src={MailLogo} />
+              <FaXTwitter size={18} />
+              <FaLinkedin size={18} />
+              <FaSquareFacebook size={18} />
+              <MdEmail size={18} />
             </div>
             <ul>
               <li>

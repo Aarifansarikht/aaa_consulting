@@ -3,10 +3,10 @@ import Styles from "./style.module.scss";
 
 import { Form, Link } from "react-router-dom";
 import BrandLogo from "../../../assets/vector/brand-logo.svg";
-import Facebooklogo from "../../../assets/social_icon/facebook.svg";
-import LinkedinLogo from "../../../assets/social_icon/linkedin.svg";
-import MailLogo from "../../../assets/social_icon/mail.svg";
-import XLogo from "../../../assets/social_icon/x.svg";
+
+import { FaXTwitter, FaLinkedin, FaSquareFacebook } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+
 import AddressIcon from "../../../assets/vector/address-icon.svg";
 
 export default function Footer(props) {
@@ -23,10 +23,10 @@ export default function Footer(props) {
                   </Link>
                 </div>
                 <div className={Styles.SocialIcon}>
-                  <img src={LinkedinLogo} />
-                  <img src={XLogo} />
-                  <img src={Facebooklogo} />
-                  <img src={MailLogo} />
+                  <FaXTwitter size={18} />
+                  <FaLinkedin size={18} />
+                  <FaSquareFacebook size={18} />
+                  <MdEmail size={18} />
                 </div>
               </div>
               <div className={Styles.FooterHeadBottom}>
@@ -47,7 +47,9 @@ export default function Footer(props) {
                     </div>
                   </form>
                   <div className={Styles.Address}>
-                    <img src={AddressIcon} />
+                    <div className={Styles.AddressIcon}>
+                      <img src={AddressIcon} />
+                    </div>
                     <p>
                       509, Aggarwal Millennium Tower 1, Netaji Subhash Place,
                       New Delhi.<span>info@aaaconsulting.in</span>

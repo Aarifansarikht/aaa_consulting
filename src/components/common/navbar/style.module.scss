@@ -27,6 +27,7 @@ header {
       justify-content: flex-end;
       gap: 0.8rem;
       padding-right: 1rem;
+      color: #c19859;
     }
     ul {
       display: flex;
@@ -117,6 +118,8 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
+        box-shadow: rgba(24, 24, 19, 0.767) 0px 20px 10px -10px;
+
         img {
           height: 50px;
           width: 50px;

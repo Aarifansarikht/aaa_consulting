@@ -1,7 +1,8 @@
 import React from "react";
 import Styles from "./style.module.scss";
 import Navbar from "../../components/common/navbar/Navbar";
-import BannerImage from "../../assets/vector/banner-image.svg";
+import BannerImage from "../../assets/vector/banner-image.png";
+import BannerTriangle from "../../assets/vector/triangle.svg";
 import Footer from "../../components/common/footer/Footer";
 import RightCorner from "../../assets/vector/right-corner.svg";
 import ServiceCard from "../../components/ServiceCard/ServiceCard";
@@ -44,15 +45,18 @@ export default function HomePage(props) {
         <div className={Styles.Container}>
           <div className={Styles.HeroLeft}>
             <h2>Elevating brands in the digital age.</h2>
-            <h1>
-              Your <b>success</b>, our<b>Journey</b>
-            </h1>
-            <div className={Styles.BannerBtn}>
-              <button>Get Quote</button>
+            <div className={Styles.bannerLeftContent}>
+              <h1>
+                Your <b>success</b>, our<b>Journey</b>
+              </h1>
+              <div className={Styles.BannerBtn}>
+                <button>Get Quote</button>
+              </div>
             </div>
           </div>
           <div className={Styles.HeroRight}>
-            <img src={BannerImage} />
+            <img src={BannerTriangle} className={Styles.BannerImageInnner} />
+            <img src={BannerImage} className={Styles.BannerImageUpper} />
           </div>
         </div>
       </section>

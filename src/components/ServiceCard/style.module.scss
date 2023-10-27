@@ -96,8 +96,10 @@
     .CardContent {
       align-items: center;
       justify-content: center;
+      gap: 2rem;
       p {
         width: 100%;
+        text-align: center;
       }
       .CardBtn {
         width: 100%;

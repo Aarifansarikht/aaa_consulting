@@ -25,7 +25,6 @@ h1 {
   height: 100%;
 }
 .HeroLeft {
-  padding-left: 0.2rem;
   width: 50%;
   position: absolute;
   left: 0px;
@@ -34,7 +33,12 @@ h1 {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  .bannerLeftContent {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
   h2 {
     font-size: 32px;
     font-weight: 400;
@@ -59,6 +63,7 @@ h1 {
       background-color: $secondry;
       border: 2px solid;
       border-color: #ffb23f;
+      font-weight: 700;
     }
   }
 }
@@ -67,9 +72,15 @@ h1 {
   position: absolute;
   right: 0px;
   z-index: 2;
-  img {
+  .BannerImageInnner {
     position: absolute;
-    right: -75px;
+    right: 9rem;
+    top: 12rem;
+  }
+  .BannerImageUpper {
+    position: absolute;
+    height: 450px;
+    right: -20px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -99,6 +110,9 @@ h1 {
         border: 2px solid;
         border-color: #ffb23f;
       }
+    }
+    .bannerLeftContent {
+      align-items: center;
     }
   }
 }
@@ -211,7 +225,7 @@ h1 {
     }
     .Container {
       flex-direction: column;
-      gap: 2rem;
+      gap: 7rem;
     }
 
     &::before {
