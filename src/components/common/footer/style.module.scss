@@ -30,18 +30,6 @@
   margin: auto;
 }
 
-.FooterLeftCorner {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-}
-
-.FooterRightCorner {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-}
-
 .FooterMain {
   height: 100%;
   margin: auto;
@@ -165,6 +153,7 @@
 .FooterBottom {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 2rem;
   h1 {
     color: #ffcf87;
@@ -176,6 +165,7 @@
 
 .ListItems {
   display: flex;
+  flex-wrap: wrap;
 
   .LeftList {
     width: 50%;
@@ -197,6 +187,71 @@
       font-size: 18px;
       font-weight: 400;
       font-family: "urbanist";
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .FooterHead {
+    gap: 2rem;
+  }
+  .FooterHeadBottom {
+    flex-direction: column;
+    gap: 2rem;
+    .HeadBottomLeft {
+      width: 100%;
+      p {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .HeadBottomRight {
+      width: 100%;
+      gap: 2rem;
+
+      .FormContainer {
+        input {
+          width: 70%;
+          padding: 0.7rem;
+          background-color: #111111;
+        }
+
+        input::placeholder {
+          font-size: 18px;
+          font-weight: 400;
+          color: #623f0b;
+          font-family: "urbanist";
+        }
+
+        button {
+          width: 29%;
+          background-color: #ffb23f;
+          color: #623f0b;
+          font-size: 14px;
+          font-weight: 700;
+          border: none;
+        }
+      }
+    }
+  }
+
+  .FooterBottom {
+  }
+  .ListItems {
+    flex-direction: column;
+    gap: 2rem;
+    .LeftList {
+      width: 100%;
+    }
+    .RightList {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .FooterHead {
+    justify-content: center;
+    .SocialIcon {
     }
   }
 }

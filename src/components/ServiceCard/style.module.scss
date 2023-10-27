@@ -12,7 +12,11 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      transition: all 0.3s ease-in;
     }
+  }
+  .CardImage:hover img {
+    transform: scale(1.1);
   }
   h1 {
     font-size: 32px;
@@ -47,10 +51,12 @@
         border: none;
         position: relative;
         z-index: 1;
+        border: 2px solid #ffb23f;
       }
       button:hover {
         color: #111111;
       }
+
       &::before,
       &::after {
         content: "";
@@ -76,6 +82,31 @@
       &:hover::before,
       &:hover::after {
         width: 50%; /* Adjust the width to control the fill on hover */
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .ServiceCardContainer {
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 1.5rem;
+    }
+    .CardContent {
+      align-items: center;
+      justify-content: center;
+      p {
+        width: 100%;
+      }
+      .CardBtn {
+        width: 100%;
+
+        height: 50px;
+        width: 200px;
+        button {
+          font-size: 1rem;
+        }
       }
     }
   }

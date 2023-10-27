@@ -110,11 +110,21 @@ h1 {
     gap: 3rem;
   }
   .Clients {
-    background-image: url("../../assets//vector/clients.svg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 250px;
+    .Grid {
+      display: flex;
+      gap: 5rem;
+      width: 100%;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      img {
+        height: 33px;
+      }
+    }
+
+    .Swiper {
+      display: none;
+    }
   }
 }
 
@@ -168,6 +178,15 @@ h1 {
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .WhoWeAreSection {
+    .Container {
+      .WhoWeAreContent {
+        text-align: center;
+      }
+    }
+  }
+}
 
 // ================What we do section======================
 .WhatWeDoSection {
@@ -215,6 +234,48 @@ h1 {
       transform: rotate(90deg);
       width: 300px;
       border-top: 1px solid $secondry;
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .Container {
+    padding: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .WhatWeDoSection {
+    .ServiceCardsOuter {
+      padding: 4rem 0.8rem;
+    }
+  }
+}
+// ==================client response================
+@media (max-width: 768px) {
+  .OurClientSection {
+    padding: 3rem 0 3rem 0;
+    h1 {
+      text-align: center;
+    }
+
+    .Clients {
+      .Grid {
+        display: none;
+      }
+
+      /* Add this CSS for Swiper display */
+      .Swiper {
+        display: block;
+        img {
+          height: 32px;
+        }
+        .CenterImage {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0px;
+        }
+      }
     }
   }
 }
