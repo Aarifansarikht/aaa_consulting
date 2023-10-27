@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Praise&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap");
+
+* {
+  font-family: "urbanist";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.FooterSection {
+  padding: 5rem 0 5rem 0;
+  background-color: #111111;
+  background-image: url("../../../assets//vector/footer-back.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 3rem 1rem 3rem 1rem;
+}
+
+.Container {
+  max-width: 1440px;
+  margin: auto;
+  height: 100%;
+}
+
+.FooterContent {
+  position: relative;
+  height: 100%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.FooterLeftCorner {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.FooterRightCorner {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.FooterMain {
+  height: 100%;
+  margin: auto;
+  background-size: cover;
+  background-position: bottom;
+  max-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.FooterTop {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.FooterBottom {
+  height: 50%;
+}
+
+.FooterHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  .SocialIcon {
+    display: flex;
+    gap: 1.6rem;
+  }
+}
+
+.FooterHeadBottom {
+  display: flex;
+  flex-wrap: wrap;
+  .HeadBottomLeft {
+    width: 50%;
+
+    p {
+      width: 70%;
+
+      color: #ab8750;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: left;
+    }
+  }
+
+  .HeadBottomRight {
+    width: 50%;
+  }
+
+  .HeadBottomRight {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+    gap: 1rem;
+
+    form {
+      width: 100%;
+    }
+
+    .FormContainer {
+      width: 100%;
+      background: linear-gradient(
+        #ffb23f 100%,
+        #ffa723 100%,
+        #ffc977 100%,
+        #ea9c27 100%
+      );
+      padding: 0.2rem;
+      display: flex;
+      gap: 0.2rem;
+      border-radius: 2px;
+
+      input {
+        width: 70%;
+        padding: 0.7rem;
+        background-color: #111111;
+      }
+
+      input::placeholder {
+        font-size: 20px;
+        font-weight: 400;
+        color: #623f0b;
+        font-family: "urbanist";
+      }
+
+      button {
+        width: 29%;
+        background-color: #ffb23f;
+        color: #623f0b;
+        font-size: 24px;
+        font-weight: 700;
+        border: none;
+      }
+    }
+
+    .Address {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      width: 100%;
+
+      p {
+        display: flex;
+        color: #ab8750;
+        margin: 0px;
+        flex-direction: column;
+        span {
+          color: #ffb23f;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+.FooterBottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  h1 {
+    color: #ffcf87;
+    font-size: 32px;
+    font-weight: 700px;
+    font-family: "urbanist";
+  }
+}
+
+.ListItems {
+  display: flex;
+
+  .LeftList {
+    width: 50%;
+  }
+
+  .RightList {
+    width: 50%;
+  }
+
+  ul {
+    display: flex;
+    gap: 1.2rem;
+    flex-direction: column;
+    list-style: none;
+    padding: 0px;
+    li a {
+      color: #ffa51e;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 400;
+      font-family: "urbanist";
+    }
+  }
+}

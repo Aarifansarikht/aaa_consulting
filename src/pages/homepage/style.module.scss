@@ -1,0 +1,220 @@
+body {
+  background-color: #222222;
+}
+$primary: #ffa51e;
+$secondry: #ffbb55;
+h1 {
+  color: #ffcf87;
+  font-size: 64px;
+  font-weight: 300;
+}
+.HeroSection {
+  background-color: #111111;
+  background-image: url("../../assets/vector/hero-blur-back.svg");
+  height: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+.Container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  height: 100%;
+}
+.HeroLeft {
+  padding-left: 0.2rem;
+  width: 50%;
+  position: absolute;
+  left: 0px;
+  z-index: 3;
+  font-family: "urbanist";
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: $primary;
+  }
+  h1 {
+    font-size: 72px;
+    color: $primary;
+    font-weight: 400;
+    b {
+      color: $secondry;
+    }
+  }
+  .BannerBtn {
+    height: 52px;
+    width: 250px;
+    button {
+      height: 100%;
+      width: 100%;
+      font-size: 24px;
+      color: #623f0b;
+      background-color: $secondry;
+      border: 2px solid;
+      border-color: #ffb23f;
+    }
+  }
+}
+.HeroRight {
+  width: 50%;
+  position: absolute;
+  right: 0px;
+  z-index: 2;
+  img {
+    position: absolute;
+    right: -75px;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  .HeroLeft {
+    padding-left: 1rem;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    h2 {
+      font-size: 24px;
+    }
+    h1 {
+      font-size: 52px;
+    }
+    .BannerBtn {
+      height: 42px;
+      width: 200px;
+      button {
+        height: 100%;
+        width: 100%;
+        font-size: 24px;
+        color: #623f0b;
+        background-color: $secondry;
+        border: 2px solid;
+        border-color: #ffb23f;
+      }
+    }
+  }
+}
+// ==================ourclientssection=======================
+.OurClientSection {
+  padding: 3rem 0 4rem 0;
+  .Container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .Clients {
+    background-image: url("../../assets//vector/clients.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+  }
+}
+
+// ====================WhoweARESECTION===============
+.WhoWeAreSection {
+  background-color: #111111;
+  background-image: url("../../assets/vector/blur-back.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .Container {
+    position: relative;
+    padding: 6rem 0 6rem 0;
+    .WhoWeAreContent {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      height: 100%;
+      p {
+        font-size: 24px;
+        font-weight: 400;
+        color: $primary;
+        font-family: "urbanist";
+      }
+    }
+    ::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-top: 2px solid $primary; /* Customize border properties as needed */
+      width: 30%; /* Adjust the width to control the length of the border */
+    }
+
+    ::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-bottom: 2px solid $primary; /* Customize border properties as needed */
+      width: 30%; /* Adjust the width to control the length of the border */
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .WhoWeAreSection {
+    .Container {
+      .WhoWeAreContent {
+        padding: 2rem;
+      }
+    }
+  }
+}
+
+// ================What we do section======================
+.WhatWeDoSection {
+  padding: 3rem 1rem 3rem 1rem;
+
+  .WhatWeDoOuterSection {
+    max-width: 1100px;
+    margin: auto;
+    position: relative;
+  }
+  .ServiceCardsOuter {
+    max-width: 1200px;
+    margin: auto;
+    position: sticky;
+    top: 0px;
+    height: 100%;
+    padding: 4rem 3.8rem;
+    .RightCorner {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+    .Container {
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    &::before {
+      content: "What we do ?";
+      position: absolute;
+
+      /* 1 rem from the bottom */
+      right: -2.5rem; /* Flush with the right side */
+      top: 20rem;
+      color: goldenrod; /* Set your desired color */
+      transform: rotate(90deg);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      /* 1 rem from the bottom */
+      right: -8.8rem; /* Flush with the right side */
+      top: 35rem;
+      color: goldenrod; /* Set your desired color */
+      transform: rotate(90deg);
+      width: 300px;
+      border-top: 1px solid $secondry;
+    }
+  }
+}

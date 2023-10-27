@@ -1,0 +1,82 @@
+.ServiceCardContainer {
+  font-family: "urbanist";
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  .CardImage {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffbb55;
+  }
+  .CardContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    p {
+      width: 70%;
+      font-size: 16px;
+      font-weight: 400;
+      color: #ab8750;
+    }
+    .CardBtn {
+      position: relative;
+      width: 30%;
+      max-width: 250px;
+      height: 52px;
+      overflow: hidden;
+      button {
+        height: 100%;
+        width: 100%;
+        font-size: 24px;
+        font-weight: 700;
+        color: #ffb23f;
+        background: transparent;
+        border: none;
+        position: relative;
+        z-index: 1;
+      }
+      button:hover {
+        color: #111111;
+      }
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background-color: #ffb23f;
+        transition: width 0.3s ease-in-out; /* Define the transition properties */
+        z-index: 0;
+      }
+
+      &::before {
+        left: 0;
+        transform-origin: left;
+      }
+
+      &::after {
+        right: 0;
+        transform-origin: right;
+      }
+
+      &:hover::before,
+      &:hover::after {
+        width: 50%; /* Adjust the width to control the fill on hover */
+      }
+    }
+  }
+}
