@@ -197,7 +197,18 @@
     }
   }
 }
-
+.CopyRights {
+  height: 52px;
+  background-color: black;
+  color: #ffa51e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
 @media screen and (max-width: 768px) {
   .FooterHead {
     gap: 2rem;
@@ -265,23 +276,16 @@
       }
     }
   }
+  .CopyRights {
+    p {
+      font-size: 14px;
+    }
+  }
 }
 @media screen and (max-width: 500px) {
   .FooterHead {
     justify-content: center;
     .SocialIcon {
     }
-  }
-}
-.CopyRights {
-  height: 52px;
-  background-color: black;
-  color: #ffa51e;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  p {
-    font-size: 16px;
-    font-weight: 400;
   }
 }
