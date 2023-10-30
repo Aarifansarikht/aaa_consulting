@@ -57,7 +57,7 @@ export default function Navbar(props) {
                 </Link>
               </li>
               <li>
-                <Link to={"/services"} className={isActive("/services")}>
+                <Link to={"#"} className={isActive("/services")}>
                   SERVICES
                 </Link>
               </li>
