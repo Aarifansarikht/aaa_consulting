@@ -79,10 +79,7 @@ export default function ContactPage(props) {
                 <h3>AAA Consulting</h3>
                 <div>
                   <img src={AddressIcon} />
-                  <p>
-                    509, Aggarwal Millennium Tower 1, Netaji Subhash Place, New
-                    Delhi.
-                  </p>
+                  <p>315, Nimai Place, Sector 114, Gurugram Harayana 122017</p>
                 </div>
                 <div>
                   <MdEmail />
@@ -92,7 +89,7 @@ export default function ContactPage(props) {
             </div>
             <div className={Styles.BottomContainer}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13999.653090300446!2d77.14037364959721!3d28.692240833145178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d023370000001%3A0x5aa938c44e5943c8!2sAAA%20Consulting!5e0!3m2!1sen!2sin!4v1698649565838!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.2339662100962!2d77.00666767510424!3d28.532686488608487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d10a06997276b%3A0x6dc988f6eeea7798!2sNimai%20Place!5e0!3m2!1sen!2sin!4v1698666213819!5m2!1sen!2sin"
                 width="100%"
                 height="450"
                 style={{ border: 0 }}

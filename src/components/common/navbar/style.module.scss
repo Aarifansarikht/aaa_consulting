@@ -76,6 +76,9 @@ header {
   }
 
   .MobileNavOpen .NavbarContent {
+    .Open {
+      height: 600px;
+    }
     nav {
       position: absolute;
       top: 90px;
@@ -85,6 +88,7 @@ header {
       width: 100%;
       margin: auto;
       background-color: #111111;
+
       .SocialIcons {
         display: none;
       }

@@ -52,8 +52,7 @@ export default function Footer(props) {
                         <img src={AddressIcon} />
                       </div>
                       <p>
-                        509, Aggarwal Millennium Tower 1, Netaji Subhash Place,
-                        New Delhi.
+                        315, Nimai Place, Sector 114, Gurugram Harayana 122017
                       </p>
                     </div>
                     <div className={Styles.EmailText}>

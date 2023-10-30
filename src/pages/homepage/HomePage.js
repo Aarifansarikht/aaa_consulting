@@ -36,6 +36,30 @@ import Clientimg20 from "../../assets/clientsimages/Group 20.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
+
+const ClientimgArray = [
+  Clientimg1,
+  Clientimg2,
+  Clientimg3,
+  Clientimg4,
+  Clientimg5,
+  Clientimg6,
+  Clientimg7,
+  Clientimg8,
+  Clientimg9,
+  Clientimg10,
+  Clientimg11,
+  Clientimg12,
+  Clientimg13,
+  Clientimg14,
+  Clientimg15,
+  Clientimg16,
+  Clientimg17,
+  Clientimg18,
+  Clientimg19,
+  Clientimg20,
+];
+
 export default function HomePage(props) {
   return (
     <div className={StyleSheet.Wrapper}>
@@ -66,65 +90,11 @@ export default function HomePage(props) {
           <h1>Our Clients</h1>
           <div className={Styles.Clients}>
             <div className={Styles.Grid}>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg1} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg2} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg3} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg4} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg5} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg6} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg7} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg8} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg9} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg10} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg11} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg12} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg13} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg14} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg15} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg16} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg17} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg18} />
-              </div>
-              <div className={Styles.GridItem}>
-                <img src={Clientimg19} />
-              </div>
-
-              {/* Add more grid items as needed */}
+              {[...Array(19)].map((_, index) => (
+                <div key={index} className={Styles.GridItem}>
+                  <img src={ClientimgArray[index]} />
+                </div>
+              ))}
             </div>
             <div className={Styles.Swiper}>
               <Swiper
@@ -143,66 +113,11 @@ export default function HomePage(props) {
                 modules={[Autoplay]}
                 loop
               >
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg1} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg2} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg3} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg4} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg5} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg6} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg7} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg8} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg9} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg10} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg11} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg12} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg13} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg14} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg15} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg16} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg17} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg18} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg19} />
-                </SwiperSlide>
-                <SwiperSlide className={Styles.CenterImage}>
-                  <img src={Clientimg20} />
-                </SwiperSlide>
+                {ClientimgArray.slice(0, 20).map((img, index) => (
+                  <SwiperSlide key={index} className={Styles.CenterImage}>
+                    <img src={img} />
+                  </SwiperSlide>
+                ))}
               </Swiper>
             </div>
           </div>
