@@ -209,6 +209,7 @@
       width: 100%;
       p {
         width: 100%;
+        font-size: 14px;
         text-align: center;
       }
     }
@@ -240,6 +241,11 @@
         }
       }
     }
+    .Address {
+      p {
+        font-size: 14px;
+      }
+    }
   }
 
   .FooterBottom {
@@ -252,6 +258,11 @@
     }
     .RightList {
       width: 100%;
+    }
+    ul {
+      li a {
+        font-size: 14px;
+      }
     }
   }
 }
