@@ -20,3 +20,8 @@ code {
   margin: 0px;
   box-sizing: border-box;
 }
+:root{
+
+  --primary: #ffa51e;
+  --secondry: #ffbb55;
+}

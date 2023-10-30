@@ -110,8 +110,11 @@
 
       input {
         width: 70%;
-        padding: 0.7rem;
+        padding: 0.8rem;
         background-color: #111111;
+        border: none;
+        color: gold;
+        outline: none;
       }
 
       input::placeholder {
@@ -119,9 +122,11 @@
         font-weight: 400;
         color: #623f0b;
         font-family: "urbanist";
+        border: none;
       }
 
       button {
+        cursor: pointer;
         width: 29%;
         background-color: #ffb23f;
         color: #623f0b;
@@ -255,5 +260,17 @@
     justify-content: center;
     .SocialIcon {
     }
+  }
+}
+.CopyRights {
+  height: 52px;
+  background-color: black;
+  color: #ffa51e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 16px;
+    font-weight: 400;
   }
 }

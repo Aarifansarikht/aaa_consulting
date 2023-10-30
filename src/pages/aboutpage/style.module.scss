@@ -1,0 +1,126 @@
+.Wrapper {
+  background-color: #1e1e1e;
+}
+$primary: #ffa51e;
+$secondry: #ffbb55;
+.HeaderSection {
+  padding: 10rem 0;
+}
+.HeaderSection {
+  background-color: #111111;
+  background-image: url("../../assets/vector/blur-back.svg");
+}
+.Container {
+  max-width: 1100px;
+  margin: auto;
+}
+.InnerBannerText {
+  color: $primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  .BannerText1 {
+    font-size: 3rem;
+  }
+  .BannerText2 {
+    font-size: 1rem;
+    a {
+      color: $secondry;
+      text-decoration: none;
+    }
+  }
+}
+
+.MainContainer {
+  padding: 5rem;
+  .TopContainer {
+    padding: 1rem;
+    h1 {
+      font-size: 4rem;
+      strong {
+        color: $secondry;
+        padding-right: 12px;
+        border-bottom: 2px solid $secondry;
+      }
+    }
+  }
+  .BottomContainer {
+    padding: 20px;
+    display: flex;
+    .LeftContainer {
+      width: 50%;
+      img {
+        border: 2px solid $secondry;
+        border-radius: 5px;
+
+        width: 95%;
+      }
+    }
+    .RightContainer {
+      width: 50%;
+
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      p {
+        font-family: "urbanist";
+        font-size: 16px;
+        color: #ab8750;
+        font-weight: 400;
+        line-height: 1.4;
+        word-spacing: 3px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1150px) {
+  .MainContainer {
+    .BottomContainer {
+      flex-direction: column;
+      margin: auto;
+      gap: 2rem;
+      .LeftContainer {
+        width: 100%;
+        img {
+          object-fit: cover;
+          height: 100%;
+        }
+      }
+      .RightContainer {
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .MainContainer {
+    padding: 10px 0;
+    .TopContainer {
+      h1 {
+        font-size: 2rem;
+        strong {
+          color: $secondry;
+          padding-right: 12px;
+          border-bottom: 2px solid $secondry;
+        }
+      }
+    }
+    .BottomContainer {
+      .LeftContainer {
+        width: 100%;
+        img {
+          object-fit: cover;
+          height: 100%;
+        }
+      }
+      .RightContainer {
+        width: 100%;
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

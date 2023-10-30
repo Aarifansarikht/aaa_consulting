@@ -238,28 +238,28 @@ export default function HomePage(props) {
               image={ServiceImg1}
               heading={"Digital Marketing & Market Research"}
               pera={
-                "AAA Consulting is a leading Online Reputation Management and Digital Marketing company based in Delhi, India. With the team of Best Digital Marketing professionals, We help the companies to build, repair, manage and promote the Clients."
+                "Digital marketing is a great way to build brand awareness and loyalty. But only when it is relevant because content without context is useless. At AAA Consulting, we not only aim to make your content impactful but profitable as well."
               }
             />
             <ServiceCard
               image={ServiceImg2}
               heading={"Software Development"}
               pera={
-                "AAA Consulting is a leading Online Reputation Management and Digital Marketing company based in Delhi, India. With the team of Best Digital Marketing professionals, We help the companies to build, repair, manage and promote the Clients."
+                "As companies grow larger, communication can become more complex and difficult to manage. Departments and teams can become isolated, making it challenging to share information and collaborate effectively."
               }
             />
             <ServiceCard
               image={ServiceImg3}
               heading={"Cloud Services"}
               pera={
-                "AAA Consulting is a leading Online Reputation Management and Digital Marketing company based in Delhi, India. With the team of Best Digital Marketing professionals, We help the companies to build, repair, manage and promote the Clients."
+                "Cloud has emerged as an enabler of transformation, but there are still significant barriers to cloud expansion and many enterprises are struggling to prove transformation value or to tie IT value to business outcomes. AAA Consulting provide a 360-degree approach identifying and solving challenges and driving transformation forward."
               }
             />
             <ServiceCard
               image={ServiceImg4}
               heading={"AI Medical Diagnosis"}
               pera={
-                "AAA Consulting is a leading Online Reputation Management and Digital Marketing company based in Delhi, India. With the team of Best Digital Marketing professionals, We help the companies to build, repair, manage and promote the Clients."
+                "Artificial intelligence in diagnostics has the potential to make healthcare more accessible, affordable, and efficient. 3 ways AI can potentially have a strong impact include enhancing efficiency and accuracy of diagnostics, improving image recognition, and alleviating administrative and laboratory resource pressures"
               }
             />
           </div>
