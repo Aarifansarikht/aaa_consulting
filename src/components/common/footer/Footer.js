@@ -53,8 +53,11 @@ export default function Footer(props) {
                       </div>
                       <p>
                         509, Aggarwal Millennium Tower 1, Netaji Subhash Place,
-                        New Delhi.<span>info@aaaconsulting.in</span>
+                        New Delhi.
                       </p>
+                    </div>
+                    <div className={Styles.EmailText}>
+                      <p>info@aaaconsulting.in</p>
                     </div>
                   </div>
                 </div>

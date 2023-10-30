@@ -148,10 +148,15 @@
         margin: 0px;
         flex-direction: column;
         line-height: 2;
-        span {
-          color: #ffb23f;
-          font-weight: 700;
-        }
+      }
+    }
+    .EmailText {
+      width: 100%;
+      padding-left: 2.2rem;
+
+      p {
+        color: #ffb23f;
+        font-weight: 700;
       }
     }
   }
