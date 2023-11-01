@@ -17,6 +17,7 @@ export default function Navbar(props) {
   const isActive = (path) => {
     return location.pathname === path ? Styles.active : "";
   };
+
   return (
     <header>
       <div
@@ -38,7 +39,7 @@ export default function Navbar(props) {
               <GiHamburgerMenu style={{ color: "#FFBB55" }} size={30} />
             )}
           </div>
-          <nav>
+          <nav className={`${isMobileMenuOpen ? Styles.Open : ""}`}>
             <div className={Styles.SocialIcons}>
               <FaXTwitter size={18} />
               <FaLinkedin size={18} />

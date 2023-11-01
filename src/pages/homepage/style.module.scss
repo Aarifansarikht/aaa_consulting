@@ -283,6 +283,7 @@ h1 {
     top: 0px;
     height: 100%;
     padding: 4rem 2.8rem;
+
     .RightCorner {
       position: absolute;
       top: 0px;
@@ -297,19 +298,17 @@ h1 {
       content: "What we do ?";
       position: absolute;
 
-      /* 1 rem from the bottom */
-      right: -2.5rem; /* Flush with the right side */
+      right: -2.5rem;
       top: 20rem;
-      color: goldenrod; /* Set your desired color */
+      color: goldenrod;
       transform: rotate(90deg);
     }
     &::after {
       content: "";
       position: absolute;
-      /* 1 rem from the bottom */
-      right: -8.8rem; /* Flush with the right side */
+      right: -8.8rem;
       top: 35rem;
-      color: goldenrod; /* Set your desired color */
+      color: goldenrod;
       transform: rotate(90deg);
       width: 300px;
       border-top: 1px solid $secondry;

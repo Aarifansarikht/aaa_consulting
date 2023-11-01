@@ -46,7 +46,7 @@ export default function NavbarSticky(props) {
                 <Link to={"/about"}>ABOUT</Link>
               </li>
               <li>
-                <Link to={"/services"}>SERVICES</Link>
+                <Link to={"#"}>SERVICES</Link>
               </li>
               <li>
                 <Link to={"/contacts"}>CONTACTS</Link>
