@@ -15,6 +15,11 @@ export default function NavbarSticky(props) {
   const handleToggleMobileMenu = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
   };
+  const location = useLocation();
+
+  const isActive = (path) => {
+    return location.pathname === path ? Styles.active : "";
+  };
 
   return (
     <header className={Styles.StickyNav}>
@@ -37,7 +42,7 @@ export default function NavbarSticky(props) {
               <GiHamburgerMenu style={{ color: "#FFBB55" }} size={30} />
             )}
           </div>
-          <nav>
+          <nav className={`${isMobileMenuOpen ? Styles.Open : ""}`}>
             <ul>
               <li>
                 <Link to={"/"}>HOME</Link>
@@ -45,8 +50,67 @@ export default function NavbarSticky(props) {
               <li>
                 <Link to={"/about"}>ABOUT</Link>
               </li>
-              <li>
-                <Link to={"#"}>SERVICES</Link>
+              <li className={Styles.dropdown}>
+                <Link to={"#"} className={isActive("/services")}>
+                  SERVICES
+                </Link>
+                <ul className={Styles.servicesMenu}>
+                  <li>
+                    <Link to={"/service1"} className={isActive("/service1")}>
+                      Online Reputation Management
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/service2"} className={isActive("/service2")}>
+                      Search Engine Optimization
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/service2"} className={isActive("/service2")}>
+                      Digital Marketing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/service2"} className={isActive("/service2")}>
+                      Social Media Consulting
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/service2"} className={isActive("/service2")}>
+                      Software Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/service2"} className={isActive("/service2")}>
+                      Intelligent Medical Diagnosis
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/service2"} className={isActive("/service2")}>
+                      Mobile Application Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/service2"} className={isActive("/service2")}>
+                      Website Development
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/service2"} className={isActive("/service2")}>
+                      Market Research
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/service2"} className={isActive("/service2")}>
+                      Cloud Computing
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/service2"} className={isActive("/service2")}>
+                      AI, Data & Insights
+                    </Link>
+                  </li>
+                </ul>
               </li>
               <li>
                 <Link to={"/contacts"}>CONTACTS</Link>

@@ -1,0 +1,78 @@
+.ContactFormContainer {
+  width: 60%;
+  padding: 1rem;
+  input,
+  select {
+    width: 100%;
+    height: 60px;
+    padding: 12px 12px 12px 12px;
+    border: none;
+    outline: none;
+    border-bottom-color: #e3e3e3 !important;
+    border-bottom-width: 1px;
+    border-bottom-style: outset;
+    box-sizing: border-box;
+    background-color: transparent;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    color: #f6cd66;
+    font-weight: 500;
+    font-size: 15.5068px;
+    line-height: 23px;
+  }
+  .textcontact textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 12px 12px 12px;
+    border: none;
+    outline: none;
+
+    border-bottom-width: 2px;
+    border-bottom-style: outset;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    resize: vertical;
+    color: #f6cd66;
+    font-weight: 500;
+    font-size: 15.5068px;
+    line-height: 23px;
+
+    background-color: transparent;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #a69d9d;
+    opacity: 1;
+    /* Firefox */
+  }
+
+  input:-ms-input-placeholder,
+  textarea:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #a69d9d;
+  }
+
+  input::-ms-input-placeholder,
+  textarea::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #a69d9d;
+  }
+  .btn {
+    border-radius: 10px;
+    background-color: #ffb23f;
+    color: #000;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ContactFormContainer {
+    width: 100%;
+  }
+}
