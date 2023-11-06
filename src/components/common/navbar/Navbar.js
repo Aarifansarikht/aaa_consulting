@@ -67,57 +67,90 @@ export default function Navbar(props) {
                 </Link>
                 <ul className={Styles.servicesMenu}>
                   <li>
-                    <Link to={"/service1"} className={isActive("/service1")}>
+                    <Link
+                      to={"/Online-Reputation-Management"}
+                      className={isActive("/service1")}
+                    >
                       Online Reputation Management
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Search-Engine-Optimization"}
+                      className={isActive("/service2")}
+                    >
                       Search Engine Optimization
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Digital-Marketing"}
+                      className={isActive("/service2")}
+                    >
                       Digital Marketing
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Social-Media-Consulting"}
+                      className={isActive("/service2")}
+                    >
                       Social Media Consulting
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Software-Development"}
+                      className={isActive("/service2")}
+                    >
                       Software Development
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Intelligent-Medical-Diagnosis"}
+                      className={isActive("/service2")}
+                    >
                       Intelligent Medical Diagnosis
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Mobile-Application-Development"}
+                      className={isActive("/service2")}
+                    >
                       Mobile Application Development
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Website-Development"}
+                      className={isActive("/service2")}
+                    >
                       Website Development
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Market-Research"}
+                      className={isActive("/service2")}
+                    >
                       Market Research
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Cloud-Computing"}
+                      className={isActive("/service2")}
+                    >
                       Cloud Computing
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/AI-Data-and-Insights"}
+                      className={isActive("/service2")}
+                    >
                       AI, Data & Insights
                     </Link>
                   </li>

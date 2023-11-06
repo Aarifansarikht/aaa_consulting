@@ -1,0 +1,34 @@
+.Wrapper {
+  background-color: #1e1e1e;
+}
+$primary: #ffa51e;
+$secondry: #ffbb55;
+.HeaderSection {
+  padding: 8rem 0;
+}
+.HeaderSection {
+  background-color: #111111;
+  background-image: url("../../assets/vector/blur-back.svg");
+}
+.Container {
+  max-width: 1100px;
+  margin: auto;
+}
+.InnerBannerText {
+  color: $primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  .BannerText1 {
+    font-size: 3rem;
+  }
+  .BannerText2 {
+    font-size: 1rem;
+    a {
+      color: $secondry;
+      text-decoration: none;
+    }
+  }
+}
