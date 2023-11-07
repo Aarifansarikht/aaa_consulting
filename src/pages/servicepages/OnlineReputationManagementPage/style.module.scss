@@ -3,9 +3,148 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding: 1rem;
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 768px) {
   .ServiceCardMedContainer {
     flex-direction: column;
+  }
+}
+
+.ScheduleConsulationContainer {
+  background-image: url("../../../assets//vector/blur-back.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  .ScheduleContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 0;
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+    button {
+      padding: 0.6rem 2rem;
+      background-color: #ffb23f;
+      color: #623f0b;
+      font-size: 14px;
+      font-weight: 700;
+      border: none;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .ScheduleConsulationContainer {
+    .ScheduleContent {
+      padding: 5rem 0;
+      h1 {
+        font-size: 24px;
+      }
+      button {
+        padding: 0.4rem 1.5rem;
+
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .ScheduleConsulationContainer {
+    .ScheduleContent {
+      padding: 5rem 0;
+      text-align: center;
+      h1 {
+        font-size: 14px;
+      }
+      button {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+.ReputationMangeCards {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+  .ReputationMangeContent {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
+
+.ReputationConsult {
+  background-image: url("../../../assets//vector/blur-back.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+  .ReputationConsultContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .ConsultLeft {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      text-align: center;
+      h2 {
+        font-size: 42px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 700;
+        padding: 0 6rem;
+      }
+      h3 {
+        font-size: 24px;
+        color: #ffb23f;
+      }
+      button {
+        padding: 0.6rem 2rem;
+        background-color: #ffb23f;
+        color: #623f0b;
+        font-size: 14px;
+        font-weight: 700;
+        border: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .ReputationConsult {
+    .ReputationConsultContent {
+      flex-direction: column;
+      .ConsultLeft {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        h2 {
+          font-size: 28px;
+        }
+        p {
+          font-size: 12px;
+          font-weight: 700;
+          padding: 0 3rem;
+        }
+        h3 {
+          font-size: 16px;
+          color: #ffb23f;
+        }
+        button {
+          padding: 0.4rem 1.6rem;
+          background-color: #ffb23f;
+          color: #623f0b;
+          font-size: 12px;
+          font-weight: 700;
+          border: none;
+        }
+      }
+    }
   }
 }

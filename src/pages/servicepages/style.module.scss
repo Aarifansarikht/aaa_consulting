@@ -1,8 +1,18 @@
 .Wrapper {
   background-color: #1e1e1e;
+  font-family: "urbanist";
 }
 $primary: #ffa51e;
 $secondry: #ffbb55;
+h2 {
+  color: $primary;
+  font-size: 28px;
+}
+p {
+  color: $secondry;
+  font-size: 14px;
+  line-height: 1.5;
+}
 .HeaderSection {
   padding: 8rem 0;
 }
@@ -29,6 +39,16 @@ $secondry: #ffbb55;
     a {
       color: $secondry;
       text-decoration: none;
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .InnerBannerText {
+    .BannerText1 {
+      font-size: 1.5rem;
+    }
+    .BannerText2 {
+      font-size: 0.8rem;
     }
   }
 }

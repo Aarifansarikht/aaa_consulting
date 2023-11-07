@@ -1,25 +1,82 @@
+$primary: #ffa51e;
+$secondry: #ffbb55;
 .CardContainer {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  align-items: center;
+
   width: 49%;
+  margin: 2rem 0;
+  p {
+    text-align: justify;
+  }
   .ImageContainer {
-    height: 300px;
+    height: auto;
     width: 100%;
     overflow: hidden;
     img {
       object-fit: cover;
-      width: 100%;
-      height: 100%;
+      max-width: 100%;
+      height: auto;
     }
   }
 }
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
   .CardContainer {
-    width: 80%;
-    .ImageContainer {
-      height: 200px;
+    h2 {
+      font-size: 22px;
     }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .CardContainer {
+    width: 90%;
+    align-items: center;
+  }
+}
+// ------------------------Content-Card----------------
+.ContentCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 340px;
+  margin: 1rem 0;
+  p {
+    text-align: justify;
+  }
+  .ContentCardImg {
+    width: 100%;
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ContentCardContainer {
+    h2 {
+      font-size: 22px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .ContentCardContainer {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 340px) {
+  .ContentCardContainer {
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
   }
 }
