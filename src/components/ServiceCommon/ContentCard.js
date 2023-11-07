@@ -1,18 +1,14 @@
 import React from "react";
 import Styles from "./style.module.scss";
-import ContentCardImg from "../../assets/servicecardimages/contentcard.png";
-function ContentCard(props) {
+import ContentCardImg from "../../assets/servicecardimages/nagative-search4.png";
+function ContentCard({ heading, pera, image }) {
   return (
     <div className={Styles.ContentCardContainer}>
       <div className={Styles.ContentCardImg}>
-        <img src={ContentCardImg} />
+        <img src={image} />
       </div>
-      <h2>Review Management</h2>
-      <p>
-        We maintain a careful check on the reviews to earn more positive reviews
-        and improve your brand trust while removing those that interfere with
-        your business reputation with cutting-edge review management solutions.
-      </p>
+      <h2>{heading}</h2>
+      <p>{pera}</p>
     </div>
   );
 }

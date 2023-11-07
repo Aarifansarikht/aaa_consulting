@@ -27,7 +27,9 @@ export default function Navbar(props) {
       >
         <div className={Styles.NavbarContent}>
           <div className={Styles.BrandLogo}>
-            <img src={BrandLogo} />
+            <Link to={"/"}>
+              <img src={BrandLogo} />
+            </Link>
           </div>
           <div
             className={Styles.HamburgerMenu}

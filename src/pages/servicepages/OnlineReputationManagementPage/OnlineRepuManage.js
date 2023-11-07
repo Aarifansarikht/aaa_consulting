@@ -8,7 +8,13 @@ import ServiceCardMedium from "../../../components/ServiceCommon/ServiceCardMedi
 import ContentCard from "../../../components/ServiceCommon/ContentCard";
 import ContactForm from "../../../components/common/form/ContactForm";
 import rating from "../../../assets/servicecardimages/Online-Reputation-Management.png";
-import NegativeSearch from "../../../assets/servicecardimages/nagative-search.png";
+import NegativeSearch from "../../../assets/servicecardimages/nagative-search4.png";
+
+import ContentImg1 from "../../../assets/servicecardimages/ContentImg1.png";
+import ContentImg2 from "../../../assets/servicecardimages/ContentImg2.png";
+
+import ContentImg3 from "../../../assets/servicecardimages/ContentImg3.png";
+
 export default function OnlineRepuManage(props) {
   return (
     <div className={Style.Wrapper}>
@@ -69,11 +75,41 @@ export default function OnlineRepuManage(props) {
         <div className={Styles.ReputationMangeCards}>
           <div className={Style.Container}>
             <div className={Styles.ReputationMangeContent}>
-              <ContentCard />
-              <ContentCard />
-              <ContentCard />
-              <ContentCard />
-              <ContentCard />
+              <ContentCard
+                heading={"Reputation Management"}
+                pera={
+                  "We control the digital area, improve online visibility, and build trust with reputation management solutions for businesses to build a strong reputation in the market for all types of businesses."
+                }
+                image={ContentImg1}
+              />
+              <ContentCard
+                heading={"Review Management"}
+                pera={
+                  "We maintain a careful check on the reviews to earn more positive reviews and improve your brand trust while removing those that interfere with your business reputation with cutting-edge review management solutions."
+                }
+                image={rating}
+              />
+              <ContentCard
+                heading={"Reputation Monitoring"}
+                pera={
+                  "By monitoring your business, we spot problems before they can harm your business prospects with proactive monitoring business reputation monitoring solutions designed for your needs."
+                }
+                image={ContentImg2}
+              />
+              <ContentCard
+                heading={"Branding"}
+                pera={
+                  "We put a spotlight on your achievements, values, online credibility, and digital reputation with customized branding solutions for companies and individuals."
+                }
+                image={ContentImg3}
+              />
+              <ContentCard
+                heading={"Crisis management"}
+                pera={
+                  "A crisis has the potential to damage your company’s reputation. We identify current and upcoming threats, streamline communications, and recover quickly with customized crisis management solutions."
+                }
+                image={ContentImg3}
+              />
             </div>
           </div>
         </div>
