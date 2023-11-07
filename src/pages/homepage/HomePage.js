@@ -7,10 +7,10 @@ import Footer from "../../components/common/footer/Footer";
 import RightCorner from "../../assets/vector/right-corner.svg";
 import ServiceCard from "../../components/ServiceCard/ServiceCard";
 
-import ServiceImg1 from "../../assets/servicecardimages/service-card-img1.svg";
-import ServiceImg2 from "../../assets/servicecardimages/service-card-img2.svg";
-import ServiceImg3 from "../../assets/servicecardimages/service-card-img3.svg";
-import ServiceImg4 from "../../assets/servicecardimages/service-card-img4.svg";
+import ServiceImg1 from "../../assets/servicecardimages/service-card-img1.png";
+import ServiceImg2 from "../../assets/servicecardimages/service-card-img2.png";
+import ServiceImg3 from "../../assets/servicecardimages/service-card-img3.png";
+import ServiceImg4 from "../../assets/servicecardimages/service-card-img4.png";
 import NavbarSticky from "../../components/common/navbar/NavbarSticky";
 
 import Clientimg1 from "../../assets/clientsimages/Group 1.png";
