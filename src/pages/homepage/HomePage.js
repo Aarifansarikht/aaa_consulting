@@ -179,7 +179,7 @@ export default function HomePage(props) {
               pera={
                 "Artificial intelligence in diagnostics has the potential to make healthcare more accessible, affordable, and efficient. 3 ways AI can potentially have a strong impact include enhancing efficiency and accuracy of diagnostics, improving image recognition, and alleviating administrative and laboratory resource pressures"
               }
-              link="/AI-Data-and-Insights"
+              link="/Intelligent-Medical-Diagnosis"
             />
           </div>
         </div>
