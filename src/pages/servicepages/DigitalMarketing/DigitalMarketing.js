@@ -36,18 +36,6 @@ function DigitalMarketing(props) {
           </div>
         </div>
       </section>
-
-      <section>
-        <div className={Style.TopImageContainer}>
-          <div className={Style.Container}>
-            <div className={Style.TopImageContent}>
-              <div className={Style.TopImage}>
-                <img src={digitalimg} height="100%" width="100%" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <Footer />
     </div>
   );
