@@ -52,3 +52,16 @@ p {
     }
   }
 }
+// ============Top-Image-Banner==============
+.TopImageContainer {
+  padding: 3rem;
+}
+
+.TopImageContent {
+  .TopImage {
+    height: 400px;
+    img {
+      object-fit: cover;
+    }
+  }
+}

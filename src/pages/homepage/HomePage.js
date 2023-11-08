@@ -155,6 +155,7 @@ export default function HomePage(props) {
               pera={
                 "Digital marketing is a great way to build brand awareness and loyalty. But only when it is relevant because content without context is useless. At AAA Consulting, we not only aim to make your content impactful but profitable as well."
               }
+              link="/Digital-Marketing"
             />
             <ServiceCard
               image={ServiceImg2}
@@ -162,6 +163,7 @@ export default function HomePage(props) {
               pera={
                 "As companies grow larger, communication can become more complex and difficult to manage. Departments and teams can become isolated, making it challenging to share information and collaborate effectively."
               }
+              link="/Software-Development"
             />
             <ServiceCard
               image={ServiceImg3}
@@ -169,6 +171,7 @@ export default function HomePage(props) {
               pera={
                 "Cloud has emerged as an enabler of transformation, but there are still significant barriers to cloud expansion and many enterprises are struggling to prove transformation value or to tie IT value to business outcomes. AAA Consulting provide a 360-degree approach identifying and solving challenges and driving transformation forward."
               }
+              link="/Cloud-Computing"
             />
             <ServiceCard
               image={ServiceImg4}
@@ -176,6 +179,7 @@ export default function HomePage(props) {
               pera={
                 "Artificial intelligence in diagnostics has the potential to make healthcare more accessible, affordable, and efficient. 3 ways AI can potentially have a strong impact include enhancing efficiency and accuracy of diagnostics, improving image recognition, and alleviating administrative and laboratory resource pressures"
               }
+              link="/AI-Data-and-Insights"
             />
           </div>
         </div>

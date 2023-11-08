@@ -12,8 +12,8 @@ import NegativeSearch from "../../../assets/servicecardimages/nagative-search4.p
 
 import ContentImg1 from "../../../assets/servicecardimages/ContentImg1.png";
 import ContentImg2 from "../../../assets/servicecardimages/ContentImg2.png";
-
-import ContentImg3 from "../../../assets/servicecardimages/ContentImg3.png";
+import ContentImg3 from "../../../assets/servicecardimages/Branding.png";
+import ContentImg4 from "../../../assets/servicecardimages/crisis.png";
 
 export default function OnlineRepuManage(props) {
   return (
@@ -108,7 +108,7 @@ export default function OnlineRepuManage(props) {
                 pera={
                   "A crisis has the potential to damage your company’s reputation. We identify current and upcoming threats, streamline communications, and recover quickly with customized crisis management solutions."
                 }
-                image={ContentImg3}
+                image={ContentImg4}
               />
             </div>
           </div>

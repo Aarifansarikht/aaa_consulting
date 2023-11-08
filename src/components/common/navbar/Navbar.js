@@ -71,7 +71,7 @@ export default function Navbar(props) {
                   <li>
                     <Link
                       to={"/Online-Reputation-Management"}
-                      className={isActive("/service1")}
+                      className={isActive("/Online-Reputation-Management")}
                     >
                       Online Reputation Management
                     </Link>
@@ -79,7 +79,7 @@ export default function Navbar(props) {
                   <li>
                     <Link
                       to={"/Search-Engine-Optimization"}
-                      className={isActive("/service2")}
+                      className={isActive("/Search-Engine-Optimization")}
                     >
                       Search Engine Optimization
                     </Link>
@@ -87,7 +87,7 @@ export default function Navbar(props) {
                   <li>
                     <Link
                       to={"/Digital-Marketing"}
-                      className={isActive("/service2")}
+                      className={isActive("/Digital-Marketing")}
                     >
                       Digital Marketing
                     </Link>
@@ -95,7 +95,7 @@ export default function Navbar(props) {
                   <li>
                     <Link
                       to={"/Social-Media-Consulting"}
-                      className={isActive("/service2")}
+                      className={isActive("/Social-Media-Consulting")}
                     >
                       Social Media Consulting
                     </Link>
@@ -103,7 +103,7 @@ export default function Navbar(props) {
                   <li>
                     <Link
                       to={"/Software-Development"}
-                      className={isActive("/service2")}
+                      className={isActive("/Software-Development")}
                     >
                       Software Development
                     </Link>
@@ -111,7 +111,7 @@ export default function Navbar(props) {
                   <li>
                     <Link
                       to={"/Intelligent-Medical-Diagnosis"}
-                      className={isActive("/service2")}
+                      className={isActive("/Intelligent-Medical-Diagnosis")}
                     >
                       Intelligent Medical Diagnosis
                     </Link>
@@ -119,7 +119,7 @@ export default function Navbar(props) {
                   <li>
                     <Link
                       to={"/Mobile-Application-Development"}
-                      className={isActive("/service2")}
+                      className={isActive("/Mobile-Application-Development")}
                     >
                       Mobile Application Development
                     </Link>
@@ -127,7 +127,7 @@ export default function Navbar(props) {
                   <li>
                     <Link
                       to={"/Website-Development"}
-                      className={isActive("/service2")}
+                      className={isActive("/Website-Development")}
                     >
                       Website Development
                     </Link>
@@ -135,7 +135,7 @@ export default function Navbar(props) {
                   <li>
                     <Link
                       to={"/Market-Research"}
-                      className={isActive("/service2")}
+                      className={isActive("/Market-Research")}
                     >
                       Market Research
                     </Link>
@@ -143,7 +143,7 @@ export default function Navbar(props) {
                   <li>
                     <Link
                       to={"/Cloud-Computing"}
-                      className={isActive("/service2")}
+                      className={isActive("/Cloud-Computing")}
                     >
                       Cloud Computing
                     </Link>
@@ -151,7 +151,7 @@ export default function Navbar(props) {
                   <li>
                     <Link
                       to={"/AI-Data-and-Insights"}
-                      className={isActive("/service2")}
+                      className={isActive("/AI-Data-and-Insights")}
                     >
                       AI, Data & Insights
                     </Link>

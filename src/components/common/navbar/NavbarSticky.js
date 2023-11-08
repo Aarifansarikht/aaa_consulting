@@ -30,7 +30,9 @@ export default function NavbarSticky(props) {
       >
         <div className={Styles.NavbarContent}>
           <div className={Styles.BrandLogo}>
-            <img src={BrandLogo} />
+            <Link to={"/"}>
+              <img src={BrandLogo} />
+            </Link>
           </div>
           <div
             className={Styles.HamburgerMenu}
@@ -56,57 +58,90 @@ export default function NavbarSticky(props) {
                 </Link>
                 <ul className={Styles.servicesMenu}>
                   <li>
-                    <Link to={"/service1"} className={isActive("/service1")}>
+                    <Link
+                      to={"/Online-Reputation-Management"}
+                      className={isActive("/Online-Reputation-Management")}
+                    >
                       Online Reputation Management
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Search-Engine-Optimization"}
+                      className={isActive("/Search-Engine-Optimization")}
+                    >
                       Search Engine Optimization
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Digital-Marketing"}
+                      className={isActive("/Digital-Marketing")}
+                    >
                       Digital Marketing
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Social-Media-Consulting"}
+                      className={isActive("/Social-Media-Consulting")}
+                    >
                       Social Media Consulting
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Software-Development"}
+                      className={isActive("/Software-Development")}
+                    >
                       Software Development
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Intelligent-Medical-Diagnosis"}
+                      className={isActive("/Intelligent-Medical-Diagnosis")}
+                    >
                       Intelligent Medical Diagnosis
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Mobile-Application-Development"}
+                      className={isActive("/Mobile-Application-Development")}
+                    >
                       Mobile Application Development
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Website-Development"}
+                      className={isActive("/Website-Development")}
+                    >
                       Website Development
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Market-Research"}
+                      className={isActive("/Market-Research")}
+                    >
                       Market Research
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/Cloud-Computing"}
+                      className={isActive("/Cloud-Computing")}
+                    >
                       Cloud Computing
                     </Link>
                   </li>
                   <li>
-                    <Link to={"/service2"} className={isActive("/service2")}>
+                    <Link
+                      to={"/AI-Data-and-Insights"}
+                      className={isActive("/AI-Data-and-Insights")}
+                    >
                       AI, Data & Insights
                     </Link>
                   </li>

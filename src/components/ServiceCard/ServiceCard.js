@@ -1,7 +1,8 @@
 import React from "react";
 import ServiceImg from "../../assets/servicecardimages/service-card-img1.svg";
 import Styles from "./style.module.scss";
-export default function ServiceCard({ image, heading, pera }) {
+import { Link } from "react-router-dom";
+export default function ServiceCard({ image, heading, pera, link }) {
   return (
     <div className={Styles.ServiceCardContainer}>
       <div className={Styles.CardImage}>
@@ -11,7 +12,9 @@ export default function ServiceCard({ image, heading, pera }) {
       <div className={Styles.CardContent}>
         <p>{pera}</p>
         <div className={Styles.CardBtn}>
-          <button>Learn More</button>
+          <Link to={link}>
+            <button>Learn More</button>
+          </Link>
         </div>
       </div>
     </div>
