@@ -65,3 +65,17 @@ p {
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .TopImageContainer {
+    padding: 2rem;
+  }
+
+  .TopImageContent {
+    .TopImage {
+      height: 200px;
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+}
