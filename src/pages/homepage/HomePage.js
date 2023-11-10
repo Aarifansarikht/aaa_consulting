@@ -11,6 +11,9 @@ import ServiceImg1 from "../../assets/servicecardimages/service-card-img1.png";
 import ServiceImg2 from "../../assets/servicecardimages/service-card-img2.png";
 import ServiceImg3 from "../../assets/servicecardimages/service-card-img3.png";
 import ServiceImg4 from "../../assets/servicecardimages/service-card-img4.png";
+import ServiceImg5 from "../../assets/servicecardimages/ContentImg1.png";
+import ServiceImg6 from "../../assets/servicecardimages/mobileappdev.png";
+
 import NavbarSticky from "../../components/common/navbar/NavbarSticky";
 
 import Clientimg1 from "../../assets/clientsimages/Group 1.png";
@@ -180,6 +183,22 @@ export default function HomePage(props) {
                 "Artificial intelligence in diagnostics has the potential to make healthcare more accessible, affordable, and efficient. 3 ways AI can potentially have a strong impact include enhancing efficiency and accuracy of diagnostics, improving image recognition, and alleviating administrative and laboratory resource pressures"
               }
               link="/Intelligent-Medical-Diagnosis"
+            />
+            <ServiceCard
+              image={ServiceImg5}
+              heading={"Online Reputation Management"}
+              pera={
+                "AAA Consulting is a leading Online Reputation Management and Digital Marketing company based in Delhi, India. With the team of Best Digital Marketing professionals, We help the companies to build, repair, manage and promote the Clients."
+              }
+              link="/Online-Reputation-Management"
+            />
+            <ServiceCard
+              image={ServiceImg6}
+              heading={"Mobile Application Development"}
+              pera={
+                "As the world becomes increasingly digital, mobile devices have become an integral part of our daily lives. People use mobile apps for everything from shopping and socializing to banking and entertainment. With so many people using mobile devices, it’s important for businesses to have a strong mobile presence."
+              }
+              link="/Mobile-Application-Development"
             />
           </div>
         </div>
