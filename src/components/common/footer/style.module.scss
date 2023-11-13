@@ -215,6 +215,9 @@
 }
 
 @media screen and (max-width: 1000px) {
+  .BrandLogo {
+    height: 50px;
+  }
   .FooterHead {
     gap: 2rem;
   }
@@ -236,12 +239,12 @@
       .FormContainer {
         input {
           width: 70%;
-          padding: 0.7rem;
+          padding: 0.5rem;
           background-color: #111111;
         }
 
         input::placeholder {
-          font-size: 18px;
+          font-size: 12px;
           font-weight: 400;
           color: #623f0b;
           font-family: "urbanist";
@@ -251,7 +254,7 @@
           width: 29%;
           background-color: #ffb23f;
           color: #623f0b;
-          font-size: 14px;
+          font-size: 12px;
           font-weight: 700;
           border: none;
         }
@@ -266,6 +269,9 @@
 
   .FooterBottom {
     width: 100%;
+    h1 {
+      font-size: 24px;
+    }
   }
   .ListItems {
     gap: 8rem;
@@ -275,13 +281,13 @@
     }
     ul {
       li a {
-        font-size: 14px;
+        font-size: 12px;
       }
     }
   }
   .CopyRights {
     p {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 }
