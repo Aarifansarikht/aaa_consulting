@@ -152,14 +152,14 @@ export default function HomePage(props) {
         <div className={Styles.ServiceCardsOuter}>
           <img src={RightCorner} className={Styles.RightCorner} />
           <div className={Styles.Container}>
-            <ServiceCard
+            {/* <ServiceCard
               image={ServiceImg1}
               heading={"Digital Marketing & Market Research"}
               pera={
                 "Digital marketing is a great way to build brand awareness and loyalty. But only when it is relevant because content without context is useless. At AAA Consulting, we not only aim to make your content impactful but profitable as well."
               }
               link="/Digital-Marketing"
-            />
+            /> */}
             <ServiceCard
               image={ServiceImg2}
               heading={"Software Development"}
@@ -168,7 +168,7 @@ export default function HomePage(props) {
               }
               link="/Software-Development"
             />
-            <ServiceCard
+            {/* <ServiceCard
               image={ServiceImg3}
               heading={"Cloud Services"}
               pera={
@@ -183,7 +183,7 @@ export default function HomePage(props) {
                 "Artificial intelligence in diagnostics has the potential to make healthcare more accessible, affordable, and efficient. 3 ways AI can potentially have a strong impact include enhancing efficiency and accuracy of diagnostics, improving image recognition, and alleviating administrative and laboratory resource pressures"
               }
               link="/Intelligent-Medical-Diagnosis"
-            />
+            /> */}
             <ServiceCard
               image={ServiceImg5}
               heading={"Online Reputation Management"}
