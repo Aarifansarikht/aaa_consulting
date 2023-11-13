@@ -87,7 +87,7 @@ export default function HomePage(props) {
           </div>
         </div>
       </section>
-      {/* =================OurClientSection=======================*/}
+      {/* =================OurClientSection=======================
       <section className={Styles.OurClientSection}>
         <div className={Styles.Container}>
           <h1>Our Clients</h1>
@@ -125,7 +125,7 @@ export default function HomePage(props) {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* ==================whowearesection=========================== */}
       <section className={Styles.WhoWeAreSection}>
         <div className={Styles.Container}>
@@ -161,6 +161,14 @@ export default function HomePage(props) {
               link="/Digital-Marketing"
             /> */}
             <ServiceCard
+              image={ServiceImg5}
+              heading={"Online Reputation Management"}
+              pera={
+                "AAA Consulting is a leading Online Reputation Management and Digital Marketing company based in Delhi, India. With the team of Best Digital Marketing professionals, We help the companies to build, repair, manage and promote the Clients."
+              }
+              link="/Online-Reputation-Management"
+            />
+            <ServiceCard
               image={ServiceImg2}
               heading={"Software Development"}
               pera={
@@ -184,14 +192,6 @@ export default function HomePage(props) {
               }
               link="/Intelligent-Medical-Diagnosis"
             /> */}
-            <ServiceCard
-              image={ServiceImg5}
-              heading={"Online Reputation Management"}
-              pera={
-                "AAA Consulting is a leading Online Reputation Management and Digital Marketing company based in Delhi, India. With the team of Best Digital Marketing professionals, We help the companies to build, repair, manage and promote the Clients."
-              }
-              link="/Online-Reputation-Management"
-            />
             <ServiceCard
               image={ServiceImg6}
               heading={"Mobile Application Development"}
