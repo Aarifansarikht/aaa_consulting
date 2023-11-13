@@ -31,14 +31,53 @@ export default function Footer(props) {
                   </div>
                 </div>
                 <div className={Styles.FooterHeadBottom}>
-                  <div className={Styles.HeadBottomLeft}>
-                    <p>
-                      AAA Consulting is a Consulting firm that is tech-empowered
-                      for multidisciplinary solutions. Instituted by highly
-                      professional solutions providers, we lead the industry for
-                      customized strategies for every client as per their goals
-                      and requirements.
-                    </p>
+                  <div className={Styles.FooterBottom}>
+                    <h1>
+                      <strong>Our Services</strong>
+                    </h1>
+                    <div className={Styles.ListItems}>
+                      <div className={Styles.LeftList}>
+                        <ul>
+                          <li>
+                            <Link to={""}>Online Reputation Management</Link>
+                          </li>
+                          <li>
+                            <Link to={""}>Search Engine Optimization</Link>
+                          </li>
+                          <li>
+                            <Link to={""}>Digital Marketing</Link>
+                          </li>
+                          <li>
+                            <Link to={""}>Social Media Consulting</Link>
+                          </li>
+                          <li>
+                            <Link to={""}>Software Development</Link>
+                          </li>
+                          <li>
+                            <Link to={""}>Intelligent Medical Diagnosis</Link>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className={Styles.RightList}>
+                        <ul>
+                          <li>
+                            <Link to={""}>Mobile Application Development</Link>
+                          </li>
+                          <li>
+                            <Link to={""}>Website Development</Link>
+                          </li>
+                          <li>
+                            <Link to={""}>Market Research</Link>
+                          </li>
+                          <li>
+                            <Link to={""}>Cloud Computing</Link>
+                          </li>
+                          <li>
+                            <Link to={""}>AI, Data & Insights</Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
                   </div>
                   <div className={Styles.HeadBottomRight}>
                     <form>
@@ -58,54 +97,6 @@ export default function Footer(props) {
                     <div className={Styles.EmailText}>
                       <p>info@aaaconsulting.in</p>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div className={Styles.FooterBottom}>
-                <h1>
-                  <strong>Our Services</strong>
-                </h1>
-                <div className={Styles.ListItems}>
-                  <div className={Styles.LeftList}>
-                    <ul>
-                      <li>
-                        <Link to={""}>Online Reputation Management</Link>
-                      </li>
-                      <li>
-                        <Link to={""}>Search Engine Optimization</Link>
-                      </li>
-                      <li>
-                        <Link to={""}>Digital Marketing</Link>
-                      </li>
-                      <li>
-                        <Link to={""}>Social Media Consulting</Link>
-                      </li>
-                      <li>
-                        <Link to={""}>Software Development</Link>
-                      </li>
-                      <li>
-                        <Link to={""}>Intelligent Medical Diagnosis</Link>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className={Styles.RightList}>
-                    <ul>
-                      <li>
-                        <Link to={""}>Mobile Application Development</Link>
-                      </li>
-                      <li>
-                        <Link to={""}>Website Development</Link>
-                      </li>
-                      <li>
-                        <Link to={""}>Market Research</Link>
-                      </li>
-                      <li>
-                        <Link to={""}>Cloud Computing</Link>
-                      </li>
-                      <li>
-                        <Link to={""}>AI, Data & Insights</Link>
-                      </li>
-                    </ul>
                   </div>
                 </div>
               </div>
