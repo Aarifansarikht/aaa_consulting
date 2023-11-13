@@ -178,13 +178,7 @@
   display: flex;
   flex-wrap: wrap;
 
-  .LeftList {
-    width: 50%;
-  }
-
-  .RightList {
-    width: 50%;
-  }
+  gap: 3rem;
 
   ul {
     display: flex;
