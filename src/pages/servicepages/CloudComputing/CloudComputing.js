@@ -36,6 +36,29 @@ function CloudComputing(props) {
           </div>
         </div>
       </section>
+
+      <section>
+        <article>
+          <div className={Style.Container}>
+            <div className={Style.TextContent}>
+              <h1>Cloud Services</h1>
+              <p>
+                Secure and managed cloud solutions that drive the outcome-based
+                modernization you need
+              </p>
+              <h2>Unlock innovation with the right cloud solutions</h2>
+              <p>
+                Cloud has emerged as an enabler of transformation, but there are
+                still significant barriers to cloud expansion and many
+                enterprises are struggling to prove transformation value or to
+                tie IT value to business outcomes. AAA Consulting Cloud Services
+                provide a 360-degree approach identifying and solving challenges
+                and driving transformation forward.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
       <Footer />
     </div>
   );

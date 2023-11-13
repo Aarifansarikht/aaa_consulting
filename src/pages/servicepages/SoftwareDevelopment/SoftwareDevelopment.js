@@ -36,6 +36,42 @@ function SoftwareDevelopment(props) {
           </div>
         </div>
       </section>
+
+      <section>
+        <article>
+          <div className={Style.Container}>
+            <div className={Style.TextContent}>
+              <h1>Software Company in New Delhi</h1>
+              <p>
+                Boost your business performance with premium software
+                development services. Our team is proven to be result-driven and
+                well-timed in project delivery.
+              </p>
+              <p>
+                Your business is made smarter with our emerging technology
+                development services. Whatever the latest technology, our
+                software development Company is here to provide dedicated
+                services in that domain. Have a closer look at the wide range of
+                modern services, technologies & frameworks we work upon.
+              </p>
+              <p>
+                Advanced mobile application development company to quickly build
+                a high-engaging mobile app. We prioritize interactive user
+                experience and robust backend functionality. Our custom
+                application development services include both native and hybrid
+                apps. Know more about our working process.
+              </p>
+              <p>
+                Our software development services include robust web
+                applications with stunning & radical UI/UX. Get your web app
+                customized that streamlines your business processes & attracts
+                more visitors. The smooth layouts and stylish design set you
+                apart from the average. Start your growth with us.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
       <Footer />
     </div>
   );

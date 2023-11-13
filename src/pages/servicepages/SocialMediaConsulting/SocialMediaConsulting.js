@@ -36,6 +36,42 @@ function SocialMediaConsulting(props) {
           </div>
         </div>
       </section>
+
+      <section>
+        <article>
+          <div className={Style.Container}>
+            <div className={Style.TextContent}>
+              <h1>
+                Scale Your Business With Best Social Media Consulting Company in
+                New Delhi
+              </h1>
+              <p>
+                We take pride in being one of the most experienced and
+                professional social media marketing providing agencies amongst
+                our peers. Our team of experts specialising in social media
+                avenues will help you establish your brand through clever and
+                effective social media marketing strategies. These strategies
+                are developed due to the years of experience of the team, and
+                that has proven to provide our clients with positive results in
+                identifying the target audience for your products and services,
+                creating engagement and helping in increasing the bottom line of
+                our clients.
+              </p>
+              <p>
+                Our experts are aware that every client's business and
+                requirements are unique; keeping this in mind, they ensure that
+                the solution provided to the clients are unique to their
+                business. The output of the tailored-made strategies is evident
+                through the increase in the views, engagement, retweets,
+                comments and likes. In addition, we ensure that the clients
+                increase their online presence through the various social media
+                marketing solutions we provide, thereby building their brand
+                awareness and brand loyalty amongst their consumers.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
       <Footer />
     </div>
   );

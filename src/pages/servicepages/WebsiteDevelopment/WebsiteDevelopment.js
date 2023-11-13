@@ -36,6 +36,30 @@ function WebsiteDevelopment(props) {
           </div>
         </div>
       </section>
+
+      <section>
+        <article>
+          <div className={Style.Container}>
+            <div className={Style.TextContent}>
+              <h1>Web Development Company & Digital Agency</h1>
+              <p>
+                We are a premium web development company in New Delhi with
+                extensive experience in delivering a wide range of projects for
+                clients across the world. From one-page to 1000+ page websites,
+                WooCommerce, and content sites, our highly-experienced
+                development team provides solutions compatible with diverse
+                business requirements.
+              </p>
+              <p>
+                Our job doesn’t end with building websites – as one of the best
+                SEO companies in Chennai, we believe websites are your brand’s
+                window to the world. A dynamic website helps you adapt to market
+                conditions and builds trust in the business.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
       <Footer />
     </div>
   );

@@ -38,6 +38,57 @@ function IntelligentMedicalDiagnosis(props) {
           </div>
         </div>
       </section>
+
+      <section>
+        <article>
+          <div className={Style.Container}>
+            <div className={Style.TextContent}>
+              <h1>
+                How Artificial Intelligence in diagnostics is transforming
+                healthcare
+              </h1>
+              <h2>Quick Takes</h2>
+              <ul>
+                <li>
+                  Artificial intelligence in diagnostics has the potential to
+                  make healthcare more accessible, affordable, and efficien
+                </li>
+                <li>
+                  3 ways AI can potentially have a strong impact include
+                  enhancing efficiency and accuracy of diagnostics, improving
+                  image recognition, and alleviating administrative and
+                  laboratory resource pressures
+                </li>
+
+                <li>
+                  Experts agree that trust and transparency are essential for
+                  AI-based tools to reach their full potential
+                </li>
+              </ul>
+              <p>
+                Artificial intelligence (AI) has powerful potential within
+                healthcare, promising the ability to analyze vast amounts of
+                data quickly and in detail. In a field such as in vitro
+                diagnostics (IVD), this could have transformative implications.
+              </p>
+              <p>
+                First, AI in diagnostics has the potential to make high quality
+                healthcare more accessible and affordable by assisting
+                healthcare providers to more quickly make the most appropriate
+                treatment decisions for their patients. Second, AI could
+                potentially transform the back office by performing otherwise
+                tedious and time consuming administrative tasks, enabling staff
+                to focus on those that add value, while decreasing
+                inefficiencies and improving the use of resources.
+              </p>
+              <p>
+                Let’s take a closer look at how AI is revolutionizing diagnostic
+                and care pathways.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
       <Footer />
     </div>
   );

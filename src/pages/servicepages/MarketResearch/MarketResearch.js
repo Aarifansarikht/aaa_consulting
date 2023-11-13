@@ -36,6 +36,41 @@ function MarketResearch(props) {
           </div>
         </div>
       </section>
+
+      <section>
+        <article>
+          <div className={Style.Container}>
+            <div className={Style.TextContent}>
+              <h1>
+                Setting A Benchmark – Market Research Services That Scale your
+                Business for Growth
+              </h1>
+              <p>
+                Want to obtain actionable awareness into technology,
+                competition, customers, products, and marketplace for getting a
+                decision that is data-driven for your company? AAA consultancy
+                is the right destination for all your market research
+                requirements.
+              </p>
+              <p>
+                Our market research team of experts help your business in
+                identifying the potential growth opportunities and building a
+                viable strategy based on detailed understanding of the overall
+                marketplace and customers.
+              </p>
+              <p>
+                We focus on employing a strong and inclusive market research
+                strategy that helps our clients in maximizing research coverage.
+                Our services involve solicitation of the right methods for the
+                primary as well as secondary sources for gathering market
+                intelligence. The consultants and experts at AAA consultancy
+                highly proof read the fine prints from the data for generating
+                accurate customized market research data.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
       <Footer />
     </div>
   );

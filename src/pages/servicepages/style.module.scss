@@ -54,7 +54,6 @@ p {
 }
 // ============Top-Image-Banner==============
 .TopImageContainer {
-  padding: 3rem;
 }
 
 .TopImageContent {
@@ -67,7 +66,6 @@ p {
 }
 @media screen and (max-width: 768px) {
   .TopImageContainer {
-    padding: 2rem;
   }
 
   .TopImageContent {
@@ -76,6 +74,32 @@ p {
       img {
         object-fit: cover;
       }
+    }
+  }
+}
+section {
+  padding: 1rem;
+}
+.TextContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  h1 {
+    font-size: 42px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 500;
+  }
+  ul {
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    li {
+      color: $secondry;
     }
   }
 }
