@@ -51,7 +51,7 @@ function SearchEngineOptimization(props) {
                 and Activity Report.
               </p>
               <p>
-                {" "}
+            
                 A key element to your business growth, our Search Engine
                 Optimization strategies target the users that has the highest
                 probability to convert into leads on your website and directs
