@@ -1,5 +1,4 @@
 import React from "react";
-import ServiceImg from "../../assets/servicecardimages/service-card-img1.svg";
 import Styles from "./style.module.scss";
 import { Link } from "react-router-dom";
 export default function ServiceCard({ image, heading, pera, link }) {
