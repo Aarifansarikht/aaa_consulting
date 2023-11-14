@@ -39,41 +39,59 @@ export default function Footer(props) {
                       <div className={Styles.LeftList}>
                         <ul>
                           <li>
-                            <Link to={""}>Online Reputation Management</Link>
+                            <Link to={"/Online-Reputation-Management"}>
+                              Online Reputation Management
+                            </Link>
                           </li>
                           <li>
-                            <Link to={""}>Search Engine Optimization</Link>
+                            <Link to={"/Search-Engine-Optimization"}>
+                              Search Engine Optimization
+                            </Link>
                           </li>
                           <li>
-                            <Link to={""}>Digital Marketing</Link>
+                            <Link to={"/Digital-Marketing"}>
+                              Digital Marketing
+                            </Link>
                           </li>
                           <li>
-                            <Link to={""}>Social Media Consulting</Link>
+                            <Link to={"/Social-Media-Consulting"}>
+                              Social Media Consulting
+                            </Link>
                           </li>
                           <li>
-                            <Link to={""}>Software Development</Link>
+                            <Link to={"/Software-Development"}>
+                              Software Development
+                            </Link>
                           </li>
                           <li>
-                            <Link to={""}>Intelligent Medical Diagnosis</Link>
+                            <Link to={"/Intelligent-Medical-Diagnosis"}>
+                              Intelligent Medical Diagnosis
+                            </Link>
                           </li>
                         </ul>
                       </div>
                       <div className={Styles.RightList}>
                         <ul>
                           <li>
-                            <Link to={""}>Mobile Application Development</Link>
+                            <Link to={"/Mobile-Application-Development"}>
+                              Mobile Application Development
+                            </Link>
                           </li>
                           <li>
-                            <Link to={""}>Website Development</Link>
+                            <Link to={"/Website-Development"}>
+                              Website Development
+                            </Link>
                           </li>
                           <li>
-                            <Link to={""}>Market Research</Link>
+                            <Link to={"/Market-Research"}>Market Research</Link>
                           </li>
                           <li>
-                            <Link to={""}>Cloud Computing</Link>
+                            <Link to={"/Cloud-Computing"}>Cloud Computing</Link>
                           </li>
                           <li>
-                            <Link to={""}>AI, Data & Insights</Link>
+                            <Link to={"/AI-Data-and-Insights"}>
+                              AI, Data & Insights
+                            </Link>
                           </li>
                         </ul>
                       </div>
