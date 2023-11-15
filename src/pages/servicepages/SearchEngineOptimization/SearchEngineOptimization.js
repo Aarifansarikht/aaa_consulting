@@ -51,7 +51,6 @@ function SearchEngineOptimization(props) {
                 and Activity Report.
               </p>
               <p>
-            
                 A key element to your business growth, our Search Engine
                 Optimization strategies target the users that has the highest
                 probability to convert into leads on your website and directs
@@ -114,7 +113,7 @@ function SearchEngineOptimization(props) {
           </div>
         </article>
       </section>
-      <section className={Style.WhoWeAreSection}>
+      <section className={Styles.WhyAreWeTheBest}>
         <div className={Style.Container}>
           <div className={Style.TextContent}>
             <h1>Why are we the Best SEO company in New Delhi?</h1>

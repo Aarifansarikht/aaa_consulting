@@ -83,13 +83,6 @@ export default function OnlineRepuManage(props) {
                 image={ContentImg1}
               />
               <ContentCard
-                heading={"Review Management"}
-                pera={
-                  "We maintain a careful check on the reviews to earn more positive reviews and improve your brand trust while removing those that interfere with your business reputation with cutting-edge review management solutions."
-                }
-                image={rating}
-              />
-              <ContentCard
                 heading={"Reputation Monitoring"}
                 pera={
                   "By monitoring your business, we spot problems before they can harm your business prospects with proactive monitoring business reputation monitoring solutions designed for your needs."
@@ -109,6 +102,13 @@ export default function OnlineRepuManage(props) {
                   "A crisis has the potential to damage your company’s reputation. We identify current and upcoming threats, streamline communications, and recover quickly with customized crisis management solutions."
                 }
                 image={ContentImg4}
+              />
+              <ContentCard
+                heading={"Review Management"}
+                pera={
+                  "We maintain a careful check on the reviews to earn more positive reviews and improve your brand trust while removing those that interfere with your business reputation with cutting-edge review management solutions."
+                }
+                image={rating}
               />
             </div>
           </div>
