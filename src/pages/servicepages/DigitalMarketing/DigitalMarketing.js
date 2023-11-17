@@ -5,6 +5,21 @@ import NavbarSticky from "../../../components/common/navbar/NavbarSticky";
 import Footer from "../../../components/common/footer/Footer";
 import Style from "../style.module.scss";
 import digitalimg from "../../../assets/servicecardimages/digitalMarket.png";
+import ContentCard from "../../../components/ServiceCommon/ContentCard";
+import hybriddev from "../../../assets/servicecardimages/hybrid.jpeg";
+
+import localseo from "../../../assets/servicecardimages/local-seo.jpg";
+import Googlemapmarket from "../../../assets/servicecardimages/googlemap-marketing.jpg";
+
+import conversionrate from "../../../assets/servicecardimages/conversion-rate.jpg";
+
+import digitalconsult from "../../../assets/servicecardimages/digital-consultancy.jpg";
+
+import youtubepromotion from "../../../assets/servicecardimages/youtubepromotion.jpg";
+
+import maximazedsale from "../../../assets/servicecardimages/maximized-sales.png";
+import WhiteHat from "../../../assets/servicecardimages/whitehat.jpg";
+
 function DigitalMarketing(props) {
   return (
     <div className={Styles.Wrapper}>
@@ -39,109 +54,108 @@ function DigitalMarketing(props) {
 
       <section>
         <article>
-          <div className={Style.Container}>
-            <div className={Style.TextContent}>
-              <h1>Platforms We Work With</h1>
-              <ul>
-                <li>
-                  <h2>Brand Building and Management</h2>
-                </li>
-                <p>
-                  Your name is not a brand until it reaches that recognition.
-                  And a good branding agency helps your business to become a
-                  brand.
-                </p>
-                <li>
-                  <h2>Local SEO</h2>
-                </li>
-                <p>
-                  Local SEO is a search engine optimization (SEO) strategy that
-                  helps your business be more visible in local search results on
-                  Google.
-                </p>
-                <li>
-                  <h2>Google Maps Marketing</h2>
-                </li>
-                <p>
-                  Whether you run a big company or own a small or mid-sized
-                  business, all you need to do is promote your business.
-                </p>
-                <li>
-                  <h2>Conversion Rate Optimization</h2>
-                </li>
-                <p>
-                  We can assist you in optimizing your website and enhancing the
-                  content that's posted on it, which should lead to an increase
-                  in conversion rate.
-                </p>
-                <li>
-                  <h2>YouTube Video Promotion</h2>
-                </li>
-                <p>
-                  YouTube is a popular business promoting platform. We are ready
-                  to help you spread your roots worldwide.
-                </p>
-                <li>
-                  <h2>Digital Consultancy</h2>
-                </li>
-                <p>
-                  Together, we concoct, create and deliver Digital Strategies to
+          <div className={Style.TextContent}>
+            <div className={Style.Container}>
+              <h1 style={{ paddingBottom: "2rem" }}>Platforms We Work With</h1>
+              <div className={Style.CardsContainer}>
+                <ContentCard
+                  heading="Platforms We Work With"
+                  pera=" SEO tells users and Google that your site is relevant to
+                  search queries. It improves CTR and increases conversions, and
+                  helps achieve better sales"
+                  image={hybriddev}
+                />
+                <ContentCard
+                  heading="Local SEO"
+                  pera="  Better SEO ranking translates into more people becoming aware
+                  of your brand, thereby gaining influence among targeted
+                  audience."
+                  image={localseo}
+                />
+                <ContentCard
+                  heading=" Google Maps Marketing"
+                  pera=" On-page & off-page SEO bring organic traffic to your website
+                  and help it rank well on search engines."
+                  image={Googlemapmarket}
+                />
+
+                <ContentCard
+                  heading="Conversion Rate Optimization "
+                  pera="With consistent SEO, you gain traction in SERPS, making it
+                  easier to rank for higher-value keywords. "
+                  image={conversionrate}
+                />
+
+                <ContentCard
+                  heading=" YouTube Video Promotion"
+                  pera="    With better search rankings & results, people tend to consider
+                  you as a credible & trustworthy brand, thereby increasing
+                  sales. "
+                  image={youtubepromotion}
+                />
+
+                <ContentCard
+                  heading=" 100% White Hat"
+                  pera="     Whitehat techniques are update-resistant as they are algorithm
+                  friendly. They help build long-term links & save time & money."
+                  image={WhiteHat}
+                />
+
+                <ContentCard
+                  heading="Digital Consultancy "
+                  pera="  Together, we concoct, create and deliver Digital Strategies to
                   our clients that bring the right change enabled by
-                  cost-effective solutions.
-                </p>
-                <li>
-                  <h2>Video Marketing</h2>
-                </li>
-                <p>
-                  We take your thoughts and opinions, turn them into creative
+                  cost-effective solutions."
+                  image={digitalconsult}
+                />
+                <ContentCard
+                  heading=" Video Marketing"
+                  pera=" We take your thoughts and opinions, turn them into creative
                   concepts, find specialized videos that fit the bill and
-                  ultimately help you get the desired results.
-                </p>
-                <li>
-                  <h2>Mobile Marketing</h2>
-                </li>
-                <p>
-                  Mobile marketing is any advertising activity that promotes
+                  ultimately help you get the desired results. "
+                />
+
+                <ContentCard
+                  heading="Mobile Marketing "
+                  pera="      Mobile marketing is any advertising activity that promotes
                   products and services via mobile devices, such as tablets and
-                  smartphones.
-                </p>
-                <li>
-                  <h2>Email Marketing</h2>
-                </li>
-                <p>
-                  We customize marketing plans for each part of your audience to
+                  smartphones."
+                />
+
+                <ContentCard
+                  heading="Email Marketing "
+                  pera="    We customize marketing plans for each part of your audience to
                   promote products and services and bring in new customers in an
-                  efficient and effective way.
-                </p>
-                <li>
-                  <h2>Reputation Management</h2>
-                </li>
-                <p>
-                  Upgrade your Brand Recognition, develop Brand Equity and
+                  efficient and effective way."
+                />
+
+                <ContentCard
+                  heading="Reputation Management "
+                  pera="   Upgrade your Brand Recognition, develop Brand Equity and
                   protect your most important asset from negative reviews all
-                  the while building your online reputation with our Reputation.
-                </p>
-                <li>
-                  <h2>Pay-Per-Click (PPC) Management</h2>
-                </li>
-                <p>
-                  Pay Per Click has an instant impact and gives your brand a
+                  the while building your online reputation with our Reputation."
+                />
+                <ContentCard
+                  heading=" Pay-Per-Click Management"
+                  pera="  Pay Per Click has an instant impact and gives your brand a
                   much larger reach and exposure as a result of first page
-                  exposure on major search engines.
-                </p>
-                <li>
-                  <h2>Company Online Presence Analysis & Audit</h2>
-                </li>
-                <p>
-                  The first step to planning and creating a strong and
+                  exposure on major search engines."
+                  image={maximazedsale}
+                />
+                <ContentCard
+                  heading="Company Online Presence Analysis & Audit "
+                  pera=" The first step to planning and creating a strong and
                   successful digital strategy begins with a precise study of
-                  your digital presence.
-                </p>
-              </ul>
+                  your digital presence. "
+                />
+
+                <ContentCard heading=" " pera=" " />
+              </div>
             </div>
           </div>
         </article>
       </section>
+
       <Footer />
     </div>
   );

@@ -79,11 +79,11 @@ p {
   }
 }
 
-.TextContent {
+.TextContent,
+.MainContent {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  text-align: justify;
 
   h1 {
     font-size: 42px;
@@ -92,14 +92,74 @@ p {
     font-size: 18px;
     line-height: 1.6;
     font-weight: 500;
+    text-align: justify;
   }
-  ul {
-    padding: 0rem 2rem;
+}
+.MainContent {
+  background-image: url("../../assets/vector/blur-back.svg");
+  padding: 2rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1 {
+    font-size: 42px;
+  }
+  p {
+    font-weight: 24px;
+  }
+  .Container {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    li {
-      color: $secondry;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+article {
+  padding: 3rem 0;
+}
+.CardsContainer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.TextContent {
+  .Container {
+    .MajorModule {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      .Module {
+        ul {
+          list-style: none;
+          display: flex;
+          gap: 1rem;
+          flex-wrap: wrap;
+          li {
+            display: inline;
+            color: #111111;
+            font-size: 1.5rem;
+            padding: 1rem;
+            background-color: #ffa51e;
+            border-radius: 1rem;
+            font-weight: 600;
+          }
+        }
+      }
     }
+  }
+}
+
+.MedicalIntelligence {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #ffbb55;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
   }
 }

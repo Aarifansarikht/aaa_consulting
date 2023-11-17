@@ -5,6 +5,7 @@ import NavbarSticky from "../../../components/common/navbar/NavbarSticky";
 import Footer from "../../../components/common/footer/Footer";
 import Style from "../style.module.scss";
 import medicaldiadnosis from "../../../assets/servicecardimages/intelligentmedical.png";
+
 function IntelligentMedicalDiagnosis(props) {
   return (
     <div className={Styles.Wrapper}>
@@ -28,21 +29,18 @@ function IntelligentMedicalDiagnosis(props) {
       </section>
 
       <section>
-        <div className={Style.TopImageContainer}>
+        <div className={Style.MainContent}>
           <div className={Style.Container}>
-            <div className={Style.TopImageContent}>
-              <div className={Style.TopImage}>
-                <img src={medicaldiadnosis} height="100%" width="100%" />
+            <section>
+              <div className={Style.TopImageContainer}>
+                <div className={Style.TopImageContent}>
+                  <div className={Style.TopImage}>
+                    <img src={medicaldiadnosis} height="100%" width="100%" />
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <article>
-          <div className={Style.Container}>
-            <div className={Style.TextContent}>
+            </section>
+            <div className={Style.MedicalIntelligence}>
               <h1>
                 How Artificial Intelligence in diagnostics is transforming
                 healthcare
@@ -87,7 +85,7 @@ function IntelligentMedicalDiagnosis(props) {
               </p>
             </div>
           </div>
-        </article>
+        </div>
       </section>
       <Footer />
     </div>

@@ -39,8 +39,8 @@ function SocialMediaConsulting(props) {
 
       <section>
         <article>
-          <div className={Style.Container}>
-            <div className={Style.TextContent}>
+          <div className={Style.MainContent}>
+            <div className={Style.Container}>
               <h1>
                 Scale Your Business With Best Social Media Consulting Company in
                 New Delhi

@@ -5,6 +5,19 @@ import Navbar from "../../../components/common/navbar/Navbar";
 import NavbarSticky from "../../../components/common/navbar/NavbarSticky";
 import Footer from "../../../components/common/footer/Footer";
 import SeoImg from "../../../assets/servicecardimages/Seo.png";
+import ContentCard from "../../../components/ServiceCommon/ContentCard";
+
+import IncreasedVisibility from "../../../assets/servicecardimages/Seo.png";
+import ImprovedBranding from "../../../assets/servicecardimages/Branding.png";
+
+import MoreTraffic from "../../../assets/servicecardimages/more-traffic.png";
+
+import GreaterROI from "../../../assets/servicecardimages/greater-roi.jpeg";
+
+import MaximisedSales from "../../../assets/servicecardimages/maximized-sales.png";
+
+import WhiteHat from "../../../assets/servicecardimages/whitehat.jpg";
+
 function SearchEngineOptimization(props) {
   return (
     <div className={Style.Wrapper}>
@@ -41,8 +54,8 @@ function SearchEngineOptimization(props) {
 
       <section>
         <article>
-          <div className={Style.Container}>
-            <div className={Style.TextContent}>
+          <div className={Style.MainContent}>
+            <div className={Style.Container}>
               <h1>Trusted SEO Company in New Delhi</h1>
               <p>
                 AAA Consulting can help increase your bottom line with our
@@ -61,54 +74,59 @@ function SearchEngineOptimization(props) {
                 flow, builds organic rankings, increases sales, attracts a lot
                 of natural links, and creates your mark in the industry.
               </p>
+            </div>
+          </div>
+        </article>
+      </section>
 
-              <ul>
-                <li>
-                  <h2>Increased Visibility</h2>
-                </li>
-                <p>
-                  SEO tells users and Google that your site is relevant to
+      <section>
+        <article>
+          <div className={Style.TextContent}>
+            <div className={Style.Container}>
+              <div className={Style.CardsContainer}>
+                <ContentCard
+                  heading="Increased Visibility"
+                  pera=" SEO tells users and Google that your site is relevant to
                   search queries. It improves CTR and increases conversions, and
-                  helps achieve better sales
-                </p>
-                <li>
-                  <h2>Improved Branding</h2>
-                </li>
-                <p>
-                  Better SEO ranking translates into more people becoming aware
+                  helps achieve better sales"
+                  image={IncreasedVisibility}
+                />
+                <ContentCard
+                  heading="Improved Branding "
+                  pera="  Better SEO ranking translates into more people becoming aware
                   of your brand, thereby gaining influence among targeted
-                  audience.
-                </p>
-                <li>
-                  <h2>More Traffic</h2>
-                </li>
-                <p>
-                  On-page & off-page SEO bring organic traffic to your website
-                  and help it rank well on search engines.
-                </p>
-                <li>
-                  <h2>Greater ROI</h2>
-                </li>
-                <p>
-                  With consistent SEO, you gain traction in SERPS, making it
-                  easier to rank for higher-value keywords.
-                </p>
-                <li>
-                  <h2>Maximised Sales</h2>
-                </li>
-                <p>
-                  With better search rankings & results, people tend to consider
+                  audience."
+                  image={ImprovedBranding}
+                />
+                <ContentCard
+                  heading=" More Traffic"
+                  pera=" On-page & off-page SEO bring organic traffic to your website
+                  and help it rank well on search engines."
+                  image={MoreTraffic}
+                />
+
+                <ContentCard
+                  heading="Greater ROI "
+                  pera="With consistent SEO, you gain traction in SERPS, making it
+                  easier to rank for higher-value keywords. "
+                  image={GreaterROI}
+                />
+
+                <ContentCard
+                  heading=" Maximised Sales"
+                  pera="    With better search rankings & results, people tend to consider
                   you as a credible & trustworthy brand, thereby increasing
-                  sales.
-                </p>
-                <li>
-                  <h2>100% White Hat</h2>
-                </li>
-                <p>
-                  Whitehat techniques are update-resistant as they are algorithm
-                  friendly. They help build long-term links & save time & money.
-                </p>
-              </ul>
+                  sales. "
+                  image={MaximisedSales}
+                />
+
+                <ContentCard
+                  heading=" 100% White Hat"
+                  pera="     Whitehat techniques are update-resistant as they are algorithm
+                  friendly. They help build long-term links & save time & money."
+                  image={WhiteHat}
+                />
+              </div>
             </div>
           </div>
         </article>
