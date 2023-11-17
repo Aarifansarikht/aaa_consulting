@@ -13,7 +13,7 @@ import Googlemapmarket from "../../../assets/servicecardimages/googlemap-marketi
 
 import conversionrate from "../../../assets/servicecardimages/conversion-rate.jpg";
 
-import digitalconsult from "../../../assets/servicecardimages/digital-consultancy.jpg";
+import digitalconsult from "../../../assets/servicecardimages/marketresearch.png";
 
 import youtubepromotion from "../../../assets/servicecardimages/youtubepromotion.jpg";
 
