@@ -101,6 +101,71 @@ function MobileApplicationDevelopment(props) {
           </div>
         </article>
       </section>
+
+      <section>
+        <div className={Style.MainContent}>
+          <div className={Style.Container}>
+            <h1>Why choose Us?</h1>
+            <p>
+              A well-designed mobile app can help businesses connect with their
+              customers and improve their overall brand experience. At our
+              mobile app development company, we specialize in design-led
+              engineering, rapid application development, scalable app
+              architecture, DevOps, and automation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <article>
+          <div className={Style.TextContent}>
+            <div className={Style.Container}>
+              <div className={Style.CardsContainer}>
+                <ContentCard
+                  heading="24/7 Customer Support"
+                  pera="We're committed to providing our customers with the best possible experience.
+
+                  "
+                  image={iosdev}
+                />
+                <ContentCard
+                  heading="Faster to Market"
+                  pera=" We understand the importance of speed when it comes to bringing products and services to market."
+                  image={androiddev}
+                />
+                <ContentCard
+                  heading="Design Thinking"
+                  pera=" We use this approach to solve complex problems and create innovative solutions for our clients."
+                  image={hybriddev}
+                />
+                <ContentCard
+                  heading={"Customization "}
+                  pera={
+                    "We understand that every business is unique, and that's why we offer customizable options for our products and services. "
+                  }
+                  image={" "}
+                />
+                <ContentCard
+                  heading={"Domain expertise "}
+                  pera={
+                    " We have extensive knowledge and experience in a variety of industries, which allows us to provide specialized solutions to our clients."
+                  }
+                  image={" "}
+                />
+
+                <ContentCard
+                  heading={"Client experience "}
+                  pera={
+                    "We're dedicated to making sure our clients are satisfied with our work and feel supported every step of the way. "
+                  }
+                  image={" "}
+                />
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
       <Footer />
     </div>
   );

@@ -15,11 +15,19 @@ import conversionrate from "../../../assets/servicecardimages/conversion-rate.jp
 
 import digitalconsult from "../../../assets/servicecardimages/marketresearch.png";
 
-import youtubepromotion from "../../../assets/servicecardimages/youtubepromotion.jpg";
+import youtubepromotion from "../../../assets/servicecardimages/youtubepromotion.jpeg";
 
 import maximazedsale from "../../../assets/servicecardimages/maximized-sales.png";
 import WhiteHat from "../../../assets/servicecardimages/whitehat.jpg";
+import platformwework from "../../../assets/servicecardimages/platform-we -work.jpeg";
+import VideoMarketing from "../../../assets/servicecardimages/video-marketing.jpeg";
 
+import EmailMarketing from "../../../assets/servicecardimages/email-marketing.jpeg";
+
+import MobileMarketing from "../../../assets/servicecardimages/mobile-marketing.jpeg";
+
+import CompanyOnline from "../../../assets/servicecardimages/company-online-presence.jpeg";
+import OnlineReputation from "../../../assets/servicecardimages/ContentImg1.png";
 function DigitalMarketing(props) {
   return (
     <div className={Styles.Wrapper}>
@@ -63,7 +71,7 @@ function DigitalMarketing(props) {
                   pera=" SEO tells users and Google that your site is relevant to
                   search queries. It improves CTR and increases conversions, and
                   helps achieve better sales"
-                  image={hybriddev}
+                  image={platformwework}
                 />
                 <ContentCard
                   heading="Local SEO"
@@ -113,6 +121,7 @@ function DigitalMarketing(props) {
                   pera=" We take your thoughts and opinions, turn them into creative
                   concepts, find specialized videos that fit the bill and
                   ultimately help you get the desired results. "
+                  image={VideoMarketing}
                 />
 
                 <ContentCard
@@ -120,6 +129,7 @@ function DigitalMarketing(props) {
                   pera="      Mobile marketing is any advertising activity that promotes
                   products and services via mobile devices, such as tablets and
                   smartphones."
+                  image={MobileMarketing}
                 />
 
                 <ContentCard
@@ -127,6 +137,7 @@ function DigitalMarketing(props) {
                   pera="    We customize marketing plans for each part of your audience to
                   promote products and services and bring in new customers in an
                   efficient and effective way."
+                  image={EmailMarketing}
                 />
 
                 <ContentCard
@@ -134,6 +145,7 @@ function DigitalMarketing(props) {
                   pera="   Upgrade your Brand Recognition, develop Brand Equity and
                   protect your most important asset from negative reviews all
                   the while building your online reputation with our Reputation."
+                  image={OnlineReputation}
                 />
                 <ContentCard
                   heading=" Pay-Per-Click Management"
@@ -147,9 +159,8 @@ function DigitalMarketing(props) {
                   pera=" The first step to planning and creating a strong and
                   successful digital strategy begins with a precise study of
                   your digital presence. "
+                  image={CompanyOnline}
                 />
-
-                <ContentCard heading=" " pera=" " />
               </div>
             </div>
           </div>

@@ -5,6 +5,7 @@ import NavbarSticky from "../../../components/common/navbar/NavbarSticky";
 import Footer from "../../../components/common/footer/Footer";
 import Style from "../style.module.scss";
 import aidataimg from "../../../assets/servicecardimages/Ai_data.png";
+import ContentCard from "../../../components/ServiceCommon/ContentCard";
 function AIDataInsights(props) {
   return (
     <div className={Styles.Wrapper}>
@@ -56,6 +57,103 @@ function AIDataInsights(props) {
                 a defined strategy and end-to-end capabilities, we establish the
                 processes and tools to meet your business objectives.
               </p>
+
+              <h1>86%</h1>
+              <p>
+                of organizations have already adopted or are considering
+                data-driven projects.*
+              </p>
+              <h1>64%</h1>
+              <p>
+                of leaders agree that data collection and analysis changed how
+                they’ve conducted business in the past three years.*
+              </p>
+              <h1>39%</h1>
+              <p>
+                of IT decision-makers report that data and business analytics
+                would receive the most IT investment in their organization.*
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <div className={Style.TextContent}>
+            <div className={Style.Container}>
+              <h1 style={{ paddingBottom: "2rem" }}>
+                Meaningful outcomes delivered through data
+              </h1>
+              <div className={Style.CardsContainer}>
+                <ContentCard
+                  heading="Maximize the value of your data assets."
+                  pera="Modern platforms collect, analyze and manage data from diverse sources to harness untapped business potential and grow return on investment."
+                  image={""}
+                />
+                <ContentCard
+                  heading="Quickly innovate products and services at scale."
+                  pera="Predictive analytics and AI-powered trend forecasting enables you to identify new business opportunities and gain a competitive advantage."
+                  image={""}
+                />
+                <ContentCard
+                  heading="Improve customer experiences."
+                  pera="Processing customer data allows you to automate inventory management, better understand purchasing decisions and market to your audience more effectively."
+                  image={""}
+                />
+                <ContentCard
+                  heading="Reduce repetitive tasks.
+                  "
+                  pera="Automation solutions fill workflow gaps and enhance productivity — so your team can focus on high-value tasks."
+                  image={""}
+                />
+                <ContentCard
+                  heading="Improve efficiency and reduce human error."
+                  pera={
+                    "Analytics reveal opportunities to optimize processes and boost performance, all while making your operations more reliable."
+                  }
+                  image={""}
+                />
+                <ContentCard
+                  heading="Make more informed business decisions."
+                  pera="Business intelligence solutions provide a comprehensive view of data to answer critical questions and determine the next steps to meet your needs."
+                  image={""}
+                />
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section>
+        <article>
+          <div className={Style.TextContent}>
+            <div className={Style.Container}>
+              <h1 style={{ paddingBottom: "2rem" }}>Consulting Services</h1>
+              <p>
+                Our consulting services — including our fast starts, workshops
+                and accelerators — guide you toward becoming a business of the
+                future through expert advice and thoughtful strategies.
+              </p>
+              <div className={Style.CardsContainer}>
+                <ContentCard
+                  heading="AI Center of Excellence"
+                  pera="Work with an experienced team of data scientists, solutions architects and consultants to maximize the value of AI. In 12 weeks, you’ll get a complete assessment of your AI development program, use cases for AI in your organization, a custom roadmap for future projects, and one high-value AI model taken from ideation to execution.
+
+                  "
+                  image={""}
+                />
+                <ContentCard
+                  heading="Insight Lens Fast Start"
+                  pera="Maximizing the impact of your analytics requires merging data from multiple sources to see the full story of your IT landscape. However, it can be challenging to determine how your technology should interact and how to transition from legacy systems to a modern solution. Insight Lens accelerates your journey to a modern data platform with tailored support to drive efficiency and adoption."
+                  image={""}
+                />
+                <ContentCard
+                  heading="MLOps Accelerator"
+                  pera="The MLOps Accelerator reduces friction and cost of delivering AI in six weeks, working hand in hand with your stakeholders to build a sustainable and actionable framework around your model building."
+                  image={""}
+                />
+              </div>
             </div>
           </div>
         </article>
