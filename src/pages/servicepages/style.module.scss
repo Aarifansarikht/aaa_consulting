@@ -94,6 +94,7 @@ p {
     font-weight: 500;
     text-align: justify;
   }
+
   ul {
     color: $secondry;
     display: flex;
@@ -145,6 +146,7 @@ article {
           display: flex;
           gap: 1rem;
           flex-wrap: wrap;
+          flex-direction: row !important;
           li {
             display: inline;
             color: #111111;
