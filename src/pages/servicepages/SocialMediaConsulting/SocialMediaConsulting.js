@@ -7,6 +7,33 @@ import Style from "../style.module.scss";
 import socialmediaconsult from "../../../assets/servicecardimages/socialmediaconsult.png";
 import ContentCard from "../../../components/ServiceCommon/ContentCard";
 import ContactForm from "../../../components/common/form/ContactForm";
+
+import FacebookMarketing from "../../../assets/servicecardimages/FacebookMarketig.jpeg";
+import InstagramMarketing from "../../../assets/servicecardimages/InstagramMarketig.jpeg";
+
+import YouTubeMarketing from "../../../assets/servicecardimages/YouTubeMarketin.jpeg";
+
+import LinkedInMarketing from "../../../assets/servicecardimages/LinkedInMarketing.jpeg";
+
+import PinterestMarketing from "../../../assets/servicecardimages/PinterestMarketing.jpeg";
+
+import TwitterMarketing from "../../../assets/servicecardimages/TwitterMarketing.jpeg";
+
+import AnalysisResearch from "../../../assets/servicecardimages/AnalysisResearch.jpeg";
+
+import StrategyPlanning from "../../../assets/servicecardimages/StrategyPlanning.jpeg";
+
+import CreatingUniqueContent from "../../../assets/servicecardimages/CreatingUniqueContent.jpeg";
+
+import SchedulingTimelyPosts from "../../../assets/servicecardimages/SchedulingTimelyPosts.jpeg";
+
+import DrivingUserEngagement from "../../../assets/servicecardimages/DrivingUserEngagement.jpeg";
+
+import SocialMediaAdvertising from "../../../assets/servicecardimages/SocialMediaAdvertising.jpeg";
+
+import Optimization from "../../../assets/servicecardimages/customization.jpeg";
+import AccurateReporting from "../../../assets/servicecardimages/more-traffic.png";
+
 function SocialMediaConsulting(props) {
   return (
     <div className={Styles.Wrapper}>
@@ -86,42 +113,42 @@ function SocialMediaConsulting(props) {
                   pera={
                     " Reach out to people effectively and efficiently with customized Facebook marketing strategies."
                   }
-                  image={" "}
+                  image={FacebookMarketing}
                 />
                 <ContentCard
                   heading={" Instagram Marketing"}
                   pera={
                     " Connect with people, build your brand, and create trustworthy followers with Instagram marketing."
                   }
-                  image={" "}
+                  image={InstagramMarketing}
                 />
                 <ContentCard
                   heading={" YouTube Marketing"}
                   pera={
                     " Create engaging videos that best reflect your brand and business. Get people to like, share & comment on your videos."
                   }
-                  image={" "}
+                  image={YouTubeMarketing}
                 />
                 <ContentCard
                   heading={" LinkedIn Marketing"}
                   pera={
                     " Find like-minded prospective employees and strengthen your professional network through LinkedIn posts, articles, and images."
                   }
-                  image={" "}
+                  image={LinkedInMarketing}
                 />
                 <ContentCard
                   heading={"Pinterest Marketing "}
                   pera={
                     "Help your customers find your product or service with unique pins and posts and connect with everyone in the world. "
                   }
-                  image={" "}
+                  image={PinterestMarketing}
                 />
                 <ContentCard
                   heading={"Twitter Marketing "}
                   pera={
                     " Connect with users, allow them to share their ideas and opinions, and increase followers using Twitter."
                   }
-                  image={" "}
+                  image={TwitterMarketing}
                 />
               </div>
             </div>
@@ -210,56 +237,56 @@ function SocialMediaConsulting(props) {
                   pera={
                     "Our experts take time and effort to understand your business and target audience. We use this knowledge to create successful campaigns that are sure to succeed."
                   }
-                  image={" "}
+                  image={AnalysisResearch}
                 />
                 <ContentCard
                   heading={" Strategy & Planning"}
                   pera={
                     "We know your brand is unique and deserves an equally exclusive and tailored campaign to match your objectives and challenges."
                   }
-                  image={" "}
+                  image={StrategyPlanning}
                 />
                 <ContentCard
                   heading={" Creating Unique Content"}
                   pera={
                     "We focus on designing distinctive ads, videos, tag lines, and posts that will make you stand out from the crowd."
                   }
-                  image={" "}
+                  image={CreatingUniqueContent}
                 />
                 <ContentCard
                   heading={" Scheduling & Timely Posts"}
                   pera={
                     "We create compelling posts and ads for your social feed and post them regularly at the scheduled time for maximum impact."
                   }
-                  image={" "}
+                  image={SchedulingTimelyPosts}
                 />
                 <ContentCard
                   heading={"Driving User Engagement"}
                   pera={
                     "Our scaling strategies encourage users to comment, like, and share your posts, thereby boosting your organic engagement and driving website traffic."
                   }
-                  image={" "}
+                  image={DrivingUserEngagement}
                 />
                 <ContentCard
                   heading={"Social Media Advertising"}
                   pera={
                     "We can be your marketing partners, setting up campaigns, monitoring user engagement, and scheduling posts, so you can sit back and relax."
                   }
-                  image={" "}
+                  image={SocialMediaAdvertising}
                 />
                 <ContentCard
                   heading={"Optimization "}
                   pera={
                     "We'll optimize your posts and ads and tweak them using relevant data to ensure your ad spending delivers maximum impact."
                   }
-                  image={" "}
+                  image={Optimization}
                 />
                 <ContentCard
                   heading={"Accurate Reporting"}
                   pera={
                     "We cover your project with accurate reporting to keep you informed about the project at all times."
                   }
-                  image={" "}
+                  image={AccurateReporting}
                 />
               </div>
             </div>
