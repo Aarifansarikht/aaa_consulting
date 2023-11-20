@@ -6,6 +6,15 @@ import Footer from "../../../components/common/footer/Footer";
 import Style from "../style.module.scss";
 import marketresearch from "../../../assets/servicecardimages/marketresearch.png";
 import ContentCard from "../../../components/ServiceCommon/ContentCard";
+
+import ProductDevelopment from "../../../assets/servicecardimages/productdev.jpg";
+import TrackingMarket from "../../../assets/servicecardimages/trackingmarket.jpg";
+
+import CXStudies from "../../../assets/servicecardimages/CXSTUDIO.jpg";
+
+import DataHandlingandmanagement from "../../../assets/servicecardimages/DATAHANDLING.jpg";
+import AnalyticsSupportandDataAnalysis from "../../../assets/servicecardimages/DATAANALYSIS.jpg";
+import MarketResearchforStartups from "../../../assets/servicecardimages/MARKETRESEARCHSTART.jpg";
 function MarketResearch(props) {
   return (
     <div className={Styles.Wrapper}>
@@ -73,81 +82,59 @@ function MarketResearch(props) {
         </article>
       </section>
       <section>
-        <article>
-          <div className={Style.TextContent}>
-            <div className={Style.Container}>
-              <h1>Our Services</h1>
-              <div
-                className={Style.CardsContainer}
-                style={{ marginTop: "1rem" }}
-              >
-                <ContentCard
-                  heading={"Product Development "}
-                  pera={
-                    "Launch tests | Concept tests | Product tests | Packaging Tests "
-                  }
-                  image={" "}
-                />
-                <ContentCard
-                  heading={"Tracking Market "}
-                  pera={
-                    " Purchase / Consumption Tracker | Brand Health check | Communication test | Promotion test | BTL activity test | Opinion polls |"
-                  }
-                  image={" "}
-                />
+        <div className={Style.TextContent}>
+          <div className={Style.Container}>
+            <h1>Our Services</h1>
+            <div className={Style.CardsContainer} style={{ marginTop: "1rem" }}>
+              <ContentCard
+                heading={"Product Development "}
+                pera={
+                  "Launch tests | Concept tests | Product tests | Packaging Tests "
+                }
+                image={ProductDevelopment}
+              />
+              <ContentCard
+                heading={"Tracking Market "}
+                pera={
+                  " Purchase / Consumption Tracker | Brand Health check | Communication test | Promotion test | BTL activity test | Opinion polls |"
+                }
+                image={TrackingMarket}
+              />
 
-                <ContentCard
-                  heading={"CX Studies"}
-                  pera={
-                    " Customer satisfaction | Customer transaction | Employee satisfaction | Net promoter score | Mystery Shopping"
-                  }
-                  image={" "}
-                />
+              <ContentCard
+                heading={"CX Studies"}
+                pera={
+                  " Customer satisfaction | Customer transaction | Employee satisfaction | Net promoter score | Mystery Shopping"
+                }
+                image={CXStudies}
+              />
 
-                <ContentCard
-                  heading={"Data Handling and management"}
-                  pera={
-                    "Our services here include Quality Data collection, Data entry, Data Processing and Data Mining"
-                  }
-                  image={" "}
-                />
+              <ContentCard
+                heading={"Data Handling and management"}
+                pera={
+                  "Our services here include Quality Data collection, Data entry, Data Processing and Data Mining"
+                }
+                image={DataHandlingandmanagement}
+              />
 
-                <ContentCard
-                  heading={"Analytics Support and Data Analysis"}
-                  pera={
-                    "Our expert team gather valuable customer information, which helps in more accurate and deeper customer profiles that in turn support personalization and customization."
-                  }
-                  image={" "}
-                />
+              <ContentCard
+                heading={"Analytics Support and Data Analysis"}
+                pera={
+                  "Our expert team gather valuable customer information, which helps in more accurate and deeper customer profiles that in turn support personalization and customization."
+                }
+                image={AnalyticsSupportandDataAnalysis}
+              />
 
-                <ContentCard
-                  heading={"Market Research for Startups"}
-                  pera={
-                    "Starting a business is easy but to make it successful is complex. MarketGenics ensures how to take off your business for a long run, with accurate facts and figures."
-                  }
-                  image={" "}
-                />
-
-                <ContentCard
-                  heading={"E-Commerce Website"}
-                  pera={" "}
-                  image={" "}
-                />
-                <ContentCard
-                  heading={"Free Staging Website"}
-                  pera={" "}
-                  image={" "}
-                />
-
-                <ContentCard
-                  heading={"Code Level SEO"}
-                  pera={" "}
-                  image={" "}
-                />
-              </div>
+              <ContentCard
+                heading={"Market Research for Startups"}
+                pera={
+                  "Starting a business is easy but to make it successful is complex. MarketGenics ensures how to take off your business for a long run, with accurate facts and figures."
+                }
+                image={MarketResearchforStartups}
+              />
             </div>
           </div>
-        </article>
+        </div>
       </section>
 
       <section>

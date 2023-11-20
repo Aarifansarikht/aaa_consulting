@@ -10,7 +10,12 @@ import iosdev from "../../../assets/servicecardimages/iosdev.jpeg";
 import androiddev from "../../../assets/servicecardimages/androiddev.jpeg";
 
 import hybriddev from "../../../assets/servicecardimages/hybrid.jpeg";
-
+import CustomerSupport from "../../../assets/servicecardimages/Customer-Support.jpeg";
+import Fastertomarket from "../../../assets/servicecardimages/fastertomarket.jpeg";
+import Designthinking from "../../../assets/servicecardimages/DesignThinking.jpg";
+import customaization from "../../../assets/servicecardimages/customization.jpeg";
+import domainexpert from "../../../assets/servicecardimages/Domainexpertise.jpg";
+import clientexperience from "../../../assets/servicecardimages/ContentImg1.png";
 function MobileApplicationDevelopment(props) {
   return (
     <div className={Styles.Wrapper}>
@@ -127,31 +132,31 @@ function MobileApplicationDevelopment(props) {
                   pera="We're committed to providing our customers with the best possible experience.
 
                   "
-                  image={iosdev}
+                  image={CustomerSupport}
                 />
                 <ContentCard
                   heading="Faster to Market"
                   pera=" We understand the importance of speed when it comes to bringing products and services to market."
-                  image={androiddev}
+                  image={Fastertomarket}
                 />
                 <ContentCard
                   heading="Design Thinking"
                   pera=" We use this approach to solve complex problems and create innovative solutions for our clients."
-                  image={hybriddev}
+                  image={Designthinking}
                 />
                 <ContentCard
                   heading={"Customization "}
                   pera={
                     "We understand that every business is unique, and that's why we offer customizable options for our products and services. "
                   }
-                  image={" "}
+                  image={customaization}
                 />
                 <ContentCard
                   heading={"Domain expertise "}
                   pera={
                     " We have extensive knowledge and experience in a variety of industries, which allows us to provide specialized solutions to our clients."
                   }
-                  image={" "}
+                  image={domainexpert}
                 />
 
                 <ContentCard
@@ -159,7 +164,7 @@ function MobileApplicationDevelopment(props) {
                   pera={
                     "We're dedicated to making sure our clients are satisfied with our work and feel supported every step of the way. "
                   }
-                  image={" "}
+                  image={clientexperience}
                 />
               </div>
             </div>

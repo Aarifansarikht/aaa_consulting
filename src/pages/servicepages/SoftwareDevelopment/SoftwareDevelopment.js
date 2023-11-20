@@ -22,6 +22,22 @@ import TallyIntegration from "../../../assets/servicecardimages/Tally-Integratio
 import ArtificialIntelligence from "../../../assets/servicecardimages/Artificial-Intelligence.jpeg";
 import CentralPlatform from "../../../assets/servicecardimages/whitehat.jpg";
 
+import Manufacturing from "../../../assets/servicecardimages/Manufacturing.jpg";
+import Healthcare from "../../../assets/servicecardimages/Healthcare.jpg";
+
+import StaffingandRecruiting from "../../../assets/servicecardimages/StaffingandRecruiting.jpg";
+
+import ConstructionManagement from "../../../assets/servicecardimages/ConstructionManagement.jpeg";
+
+import Logistics from "../../../assets/servicecardimages/Logistics.jpg";
+
+import Retail from "../../../assets/servicecardimages/Retail.jpg";
+
+import RealEstate from "../../../assets/servicecardimages/RealEstate.jpg";
+
+import Education from "../../../assets/servicecardimages/Education.jpg";
+import Finance from "../../../assets/servicecardimages/Finance.jpg";
+
 function SoftwareDevelopment(props) {
   return (
     <div className={Styles.Wrapper}>
@@ -132,30 +148,46 @@ function SoftwareDevelopment(props) {
                 <ContentCard
                   heading={"Manufacturing "}
                   pera={" "}
-                  image={" "}
+                  image={Manufacturing}
                 />
-                <ContentCard heading={"Healthcare "} pera={" "} image={" "} />
+                <ContentCard
+                  heading={"Healthcare "}
+                  pera={" "}
+                  image={Healthcare}
+                />
 
                 <ContentCard
                   heading={" Staffing and Recruiting"}
                   pera={" "}
-                  image={" "}
+                  image={StaffingandRecruiting}
                 />
 
                 <ContentCard
                   heading={"Construction Management "}
                   pera={" "}
-                  image={" "}
+                  image={ConstructionManagement}
                 />
 
-                <ContentCard heading={"Logistics "} pera={" "} image={" "} />
+                <ContentCard
+                  heading={"Logistics "}
+                  pera={" "}
+                  image={Logistics}
+                />
 
-                <ContentCard heading={"Retail "} pera={" "} image={" "} />
+                <ContentCard heading={"Retail "} pera={" "} image={Retail} />
 
-                <ContentCard heading={"Real Estate "} pera={" "} image={" "} />
-                <ContentCard heading={"Education"} pera={" "} image={" "} />
+                <ContentCard
+                  heading={"Real Estate "}
+                  pera={" "}
+                  image={RealEstate}
+                />
+                <ContentCard
+                  heading={"Education"}
+                  pera={" "}
+                  image={Education}
+                />
 
-                <ContentCard heading={"Finance"} pera={" "} image={" "} />
+                <ContentCard heading={"Finance"} pera={" "} image={Finance} />
               </div>
             </div>
           </div>

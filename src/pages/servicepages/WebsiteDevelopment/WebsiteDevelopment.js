@@ -6,6 +6,23 @@ import Footer from "../../../components/common/footer/Footer";
 import Style from "../style.module.scss";
 import webdev from "../../../assets/servicecardimages/webdev.png";
 import ContentCard from "../../../components/ServiceCommon/ContentCard";
+
+import checklist from "../../../assets/servicecardimages/checklist.jpg";
+import PowerfulServer from "../../../assets/servicecardimages/PowerfulServer.jpg";
+
+import PremiumDesign from "../../../assets/servicecardimages/PremiumDesign.jpg";
+
+import UnlimitedDesignRevisions from "../../../assets/servicecardimages/unlimiteddesign.jpg";
+
+import PremiumWebsite from "../../../assets/servicecardimages/PremiumWebsite.jpg";
+
+import GoogleFriendlyWebsite from "../../../assets/servicecardimages/googlefriendly.jpg";
+import ECommerceWebsite from "../../../assets/servicecardimages/E-CommerceWebsite.jpg";
+
+import FreeStagingWebsite from "../../../assets/servicecardimages/freestagingwebsite.jpg";
+
+import CodeLevelSEO from "../../../assets/servicecardimages/codelevelseo.jpg";
+
 function WebsiteDevelopment(props) {
   return (
     <div className={Styles.Wrapper}>
@@ -39,42 +56,40 @@ function WebsiteDevelopment(props) {
       </section>
 
       <section>
-        <article>
-          <div className={Style.Container}>
-            <div className={Style.TextContent}>
-              <h1>Web Development Company & Digital Agency</h1>
-              <p>
-                We are a premium web development company in New Delhi with
-                extensive experience in delivering a wide range of projects for
-                clients across the world. From one-page to 1000+ page websites,
-                WooCommerce, and content sites, our highly-experienced
-                development team provides solutions compatible with diverse
-                business requirements.
-              </p>
-              <p>
-                Our job doesn’t end with building websites – as one of the best
-                SEO companies in Chennai, we believe websites are your brand’s
-                window to the world. A dynamic website helps you adapt to market
-                conditions and builds trust in the business.
-              </p>
+        <div className={Style.Container}>
+          <div className={Style.TextContent}>
+            <h1>Web Development Company & Digital Agency</h1>
+            <p>
+              We are a premium web development company in New Delhi with
+              extensive experience in delivering a wide range of projects for
+              clients across the world. From one-page to 1000+ page websites,
+              WooCommerce, and content sites, our highly-experienced development
+              team provides solutions compatible with diverse business
+              requirements.
+            </p>
+            <p>
+              Our job doesn’t end with building websites – as one of the best
+              SEO companies in Chennai, we believe websites are your brand’s
+              window to the world. A dynamic website helps you adapt to market
+              conditions and builds trust in the business.
+            </p>
 
-              <h1>Effective Web Development Solutions</h1>
-              <p>
-                We are one of the best WordPress web development companies in
-                New Delhi, creating clean, functional, intuitive, and secure
-                websites. With user experience at the center stage, our designs
-                seek to compel users to engage with your website, thereby
-                elevating your brand and business.
-              </p>
-              <p>
-                You’ll interact with proficient and certified developers who
-                ensure 100% customer satisfaction and guaranteed on-time project
-                delivery. Our strict testing protocols provide a bug-free,
-                seamless website delivery.
-              </p>
-            </div>
+            <h1>Effective Web Development Solutions</h1>
+            <p>
+              We are one of the best WordPress web development companies in New
+              Delhi, creating clean, functional, intuitive, and secure websites.
+              With user experience at the center stage, our designs seek to
+              compel users to engage with your website, thereby elevating your
+              brand and business.
+            </p>
+            <p>
+              You’ll interact with proficient and certified developers who
+              ensure 100% customer satisfaction and guaranteed on-time project
+              delivery. Our strict testing protocols provide a bug-free,
+              seamless website delivery.
+            </p>
           </div>
-        </article>
+        </div>
       </section>
       <section>
         <article>
@@ -91,53 +106,53 @@ function WebsiteDevelopment(props) {
                 <ContentCard
                   heading={"90+ Dev Checklist "}
                   pera={" "}
-                  image={" "}
+                  image={checklist}
                 />
                 <ContentCard
                   heading={"Powerful Server "}
                   pera={" "}
-                  image={" "}
+                  image={PowerfulServer}
                 />
 
                 <ContentCard
                   heading={"Premium Design"}
                   pera={" "}
-                  image={" "}
+                  image={PremiumDesign}
                 />
 
                 <ContentCard
                   heading={"Unlimited Design Revisions"}
                   pera={" "}
-                  image={" "}
+                  image={UnlimitedDesignRevisions}
                 />
 
                 <ContentCard
                   heading={"Premium Website"}
                   pera={" "}
-                  image={" "}
+                  image={PremiumWebsite}
                 />
 
                 <ContentCard
                   heading={"Google Friendly Website "}
                   pera={" "}
-                  image={" "}
+                  image={GoogleFriendlyWebsite}
                 />
 
                 <ContentCard
                   heading={"E-Commerce Website"}
                   pera={" "}
-                  image={" "}
+                  image={ECommerceWebsite}
                 />
                 <ContentCard
                   heading={"Free Staging Website"}
                   pera={" "}
-                  image={" "}
+                  image={FreeStagingWebsite}
                 />
 
                 <ContentCard
                   heading={"Code Level SEO"}
                   pera={" "}
-                  image={" "}
+                  image={CodeLevelSEO}
                 />
               </div>
             </div>
